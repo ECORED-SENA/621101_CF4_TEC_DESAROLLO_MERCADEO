@@ -222,8 +222,11 @@
     p.mb-3 Un servicio es una forma de producto que consiste en actividades, beneficios o satisfacciones que se ofrecen en venta y siendo esencialmente intangibles, no tienen como resultado la propiedad de algo. Algunos ejemplos son los servicios bancarios, el hospedaje en hoteles, los vuelos en aerolíneas, el comercio minorista y la comunicación inalámbrica (Kotler,2017).
  
     p ¿Cómo se diseña un concepto de servicio? Para Lovelock (2015) El mercadeo de servicios experimentados reconocen la necesidad de adoptar una perspectiva integral del desempeño que desean que sus clientes experimenten. La propuesta de valor debe considerar e integrar tres componentes:
-
+    //- Aquí viene nueva imagen
     
+
+
+
     //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
     //- se encuentra en src/components/Muestras.vue
     //- Una vez el componente "Muestras" no se necesite 
