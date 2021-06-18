@@ -223,7 +223,40 @@
  
     p ¿Cómo se diseña un concepto de servicio? Para Lovelock (2015) El mercadeo de servicios experimentados reconocen la necesidad de adoptar una perspectiva integral del desempeño que desean que sus clientes experimenten. La propuesta de valor debe considerar e integrar tres componentes:
     //- Aquí viene nueva imagen
-    
+    .row.justify-content-center.mt-5.my-5.mb-5
+
+      .col-10.col-md-8
+        .card-media.color-table_2
+          .card-media__body                 
+            figure.card__figure
+              img(src="assets/images/pages/tema_1/img_12.png")
+              p 
+                span.text-bold  Producto básico:  
+                | por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
+
+
+      .col-10.col-md-8
+        .card-media.color-table_2
+          .card-media__body                 
+            figure.card__figure
+              img(src="assets/images/pages/tema_1/img_13.png")
+              p 
+                span.text-bold Servicios complementarios: 
+                | la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
+
+      .col-10.col-md-8
+        .card-media.color-table_2
+          .card-media__body                 
+            figure.card__figure
+              img(src="assets/images/pages/tema_1/img_14.png")
+              p
+                span.text-bold  Procesos de entrega: 
+                | se refiere a los procesos que se utilizan para entregar tanto el producto básico como cada uno de los servicios complementarios. El diseño de la oferta de servicios debe considerar los siguientes aspectos: La manera en la que los distintos componentes del servicio se entregan al cliente, la naturaleza del papel del cliente en dichos procesos, la duración de la entrega y el nivel y estilo prescritos de los servicios que se ofertaran. Ej. En el servicio de Hotelería los Horarios o rutas para el uso de sus servicios. (Lovelock,2015)
+    br
+    br
+    #t1-2.titulo-segundo
+      h2 Experiencias
+
 
 
 
