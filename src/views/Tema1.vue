@@ -229,7 +229,7 @@
         .card-media.color-table_2
           .card-media__body                 
             figure.card__figure
-              img(src="assets/curso/img_12.png")
+              img(src="@/assets/curso/img_12.png")
               p 
                 span.text-bold  Producto básico:  
                 | por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
@@ -239,7 +239,7 @@
         .card-media.color-table_2
           .card-media__body                 
             figure.card__figure
-              img(src="assets/curso/img_13.png")
+              img(src="@/assets/curso/img_13.png")
               p 
                 span.text-bold Servicios complementarios: 
                 | la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
@@ -248,7 +248,7 @@
         .card-media.color-table_2
           .card-media__body                 
             figure.card__figure
-              img(src="assets/curso/img_14.png")
+              img(src="@/assets/curso/img_14.png")
               p
                 span.text-bold  Procesos de entrega: 
                 | se refiere a los procesos que se utilizan para entregar tanto el producto básico como cada uno de los servicios complementarios. El diseño de la oferta de servicios debe considerar los siguientes aspectos: La manera en la que los distintos componentes del servicio se entregan al cliente, la naturaleza del papel del cliente en dichos procesos, la duración de la entrega y el nivel y estilo prescritos de los servicios que se ofertaran. Ej. En el servicio de Hotelería los Horarios o rutas para el uso de sus servicios. (Lovelock,2015)
@@ -258,11 +258,11 @@
       h2 Experiencias
     p.mb-3 Para diferenciar sus ofertas, más allá del simple hecho de fabricar productos y prestar servicios, las empresas están creando y entregando experiencias para los clientes con sus marcas o su compañía. Las experiencias siempre han formado parte importante del marketing. Desde hace mucho tiempo Disney crea sueños y recuerdos a través de sus películas y parques temáticos. Y hace mucho que Nike declaró: “No se trata tanto de los zapatos, sino de a dónde te llevan”. Hoy todo tipo de empresas están rehaciendo sus tradicionales bienes y servicios para crear experiencias (Kotler,2017).
     p Los consumidores valoran las experiencias y las soluciones deseadas, y están dispuestos a pagar por ellas. No se puede poseer seres humanos, aunque sí puede contratar (alquilar) su trabajo y experiencia. Al pagar por el uso temporal de un objeto o por el acceso a una instalación física, los clientes disfrutan del uso de cosas que no pueden comprar o justificar su compra, o bien, que prefieren no conservar ni almacenar después de su uso. Además, el arrendamiento -por medio de tarifas de acceso y uso- ofrece a los clientes un medio para participar en sistemas de redes que los individuos y la mayoría de las organizaciones no podrían costear ni operar por sí mismos (Lovelock,2015).
-    figure
-      img.mt-5.img-a(src="assets/curso/img_15.png")
+    figure.mb-5
+      img.mt-5.img-a(src="@/assets/curso/t1-i10.jpg")
 
     h3.titulo-tercero Características
-    p Según Kotler (2017) se tienen en cuenta cuatro características especiales de los servicios al diseñar programas de marketing: intangibilidad, inseparabilidad, variabilidad y caducidad.
+    p.mb-5 Según Kotler (2017) se tienen en cuenta cuatro características especiales de los servicios al diseñar programas de marketing: intangibilidad, inseparabilidad, variabilidad y caducidad.
 
       AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
         .row(titulo="Intangibilidad")
@@ -279,29 +279,28 @@
             p Los servicios no pueden almacenarse para su venta o uso posterior. (Kotler,2017)
 
       Separador
-      figure
-        img.mt-5.img-a(src="assets/curso/img_16.png")
-      .row.mt-5
-        .col-1.col-md-1.flecha
-          img(src="assets/curso/img_6.png").img-icon
-        .col-9.col-md-9
-          span.text-bold Evaluación de la calidad del servicio
-          p Una vez que un consumidor prueba un servicio, ¿cómo lo evalúa? Principalmente, al comparar las expectativas sobre una oferta de servicio con la experiencia real que tiene con el mismo. Las diferencias entre las expectativas y la experiencia del consumidor se evalúan con base en dimensiones de la calidad del servicio. Las comunicaciones verbales, las necesidades personales, las experiencias previas y las actividades promocionales influyen en las expectativas, mientras que las experiencias reales están determinadas por la manera en la que una organización entrega su servicio en particular a través de competencias interpersonales (Kerin,2018).
+    .row.justify-content-center
+      .col-lg-8.text-center
+        figure
+          img.mt-5.img-a(src="@/assets/curso/img_16.png")
+    .row.mt-5        
+      .col-12.col-lg-12
+        span.text-bold Evaluación de la calidad del servicio
+        p Una vez que un consumidor prueba un servicio, ¿cómo lo evalúa? Principalmente, al comparar las expectativas sobre una oferta de servicio con la experiencia real que tiene con el mismo. Las diferencias entre las expectativas y la experiencia del consumidor se evalúan con base en dimensiones de la calidad del servicio. Las comunicaciones verbales, las necesidades personales, las experiencias previas y las actividades promocionales influyen en las expectativas, mientras que las experiencias reales están determinadas por la manera en la que una organización entrega su servicio en particular a través de competencias interpersonales (Kerin,2018).
+        img.mt-5.img-a.img-fluid(src="@/assets/curso/t1-i11.jpg")
 
-            img.mt-5.img-a(src="assets/curso/img_17.png").img-fluid
+    .sub-ecored.mt-5#tema1_3
+      h2 1.3. Marca
+    figure
+      img.mt-5.img-a.img-fluid(src="@/assets/curso/img_18.png")
 
-            .sub-ecored.mt-5#tema1_3
-                h2 1.3. Marca
+    p.mt-5 La marca de un producto es aquello que lo identifica, que lo diferencia de otros similares, de manera que se convierte en el trasmisor de la esencia y los beneficios que aporta el producto, así como la proyección en el mercado de la imagen y el prestigio de la empresa que lo fabrica o lo comercializa (Martínez,2014).
 
-            img.mt-5.img-a(src="assets/curso/img_18.png").img-fluid
+    p Para Hernández (2017) “Los objetivos que se persiguen para otorgar una marca a un producto son: ser un signo de garantía para el producto, dar prestigio y seriedad a la empresa fabricante y ayudar a que se venda mejor el producto y las características primordiales de las marcas ponen énfasis en que su nombre no debe ser genérico; éste describe realmente al producto. El nombre debe ser corto, debe ser fácil de recordar, el sentido del nombre debe ser agradable, debe ser adaptable a cualquier medio de publicidad y se debe identificar fácilmente a simple vista.
 
-            p.mt-5 La marca de un producto es aquello que lo identifica, que lo diferencia de otros similares, de manera que se convierte en el trasmisor de la esencia y los beneficios que aporta el producto, así como la proyección en el mercado de la imagen y el prestigio de la empresa que lo fabrica o lo comercializa (Martínez,2014).
+    p Ricardo Hoyos (2016) define la importancia que tienen las marcas para el ser humano contemporáneo, como individuo y como ser social. A través de la marca, el ser humano se legitima frente a sí mismo y frente a los demás; por medio de ella se establecen afinidades con sus grupos de interés y distancias con personas y grupos sociales que considera diferentes. En razón de la marca, los individuos crean identidad de sí mismos y de sus grupos sociales.
 
-            p Para Hernández (2017) “Los objetivos que se persiguen para otorgar una marca a un producto son: ser un signo de garantía para el producto, dar prestigio y seriedad a la empresa fabricante y ayudar a que se venda mejor el producto y las características primordiales de las marcas ponen énfasis en que su nombre no debe ser genérico; éste describe realmente al producto. El nombre debe ser corto, debe ser fácil de recordar, el sentido del nombre debe ser agradable, debe ser adaptable a cualquier medio de publicidad y se debe identificar fácilmente a simple vista.
-
-            p Ricardo Hoyos (2016) define la importancia que tienen las marcas para el ser humano contemporáneo, como individuo y como ser social. A través de la marca, el ser humano se legitima frente a sí mismo y frente a los demás; por medio de ella se establecen afinidades con sus grupos de interés y distancias con personas y grupos sociales que considera diferentes. En razón de la marca, los individuos crean identidad de sí mismos y de sus grupos sociales.
-
-            p En el siguiente cuadro se muestran los beneficios de la marca para el consumidor
+    p En el siguiente cuadro se muestran los beneficios de la marca para el consumidor
 
             table.table.table-nowrap.justify-content-center.text-center.mt-5
                     thead
@@ -340,11 +339,11 @@
 
             .row.mt-5
                     .col-1.col-md-1.flecha
-                        img(src="assets/curso/img_6.png").img-icon
+                        img(src="@/assets/curso/img_6.png").img-icon
                     .col-9.col-md-9
                         p #[strong Tipos de marcas.]
 
-            img.mt-5.img-a(src="assets/curso/img_19.png").img-fluid
+            img.mt-5.img-a(src="@/assets/curso/img_19.png").img-fluid
 
             .row.justify-content-center.mt-5.my-5
                 .col-10.col-md-9
@@ -392,11 +391,11 @@
 
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Construcción de marcas fuertes.]
 
-            img.mt-5.img-a(src="assets/curso/img_20.png").img-fluid
+            img.mt-5.img-a(src="@/assets/curso/img_20.png").img-fluid
 
             p.mt-5 Kotler (2017) determina que el branding representa una decisión difícil y las principales decisiones de estrategia de marca implican la selección del nombre de marca, co-branding y el desarrollo de marca.
 
@@ -412,42 +411,42 @@
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Sugerir algo acerca de los beneficios y las cualidades del producto. Ej. Pinterest. 
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Fácil de pronunciar, reconocer y recordar. Ej. Twitter
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Distintivo
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Se pueda ampliar. Ej. Amazon.com se inició como vendedor de libros en línea, pero eligió un nombre que le permitiera expandirse a otras categorías.
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Facilidad de traducción y no causar confusión con los idiomas. 
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Registrarse y protegerse legalmente
 
@@ -467,28 +466,28 @@
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Extensiones de línea. Cuando una empresa utiliza el nombre de una marca para introducir al mercado nuevas formas, nuevos colores, tamaños, ingredientes o sabores de una categoría de productos existente.  
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Extensiones de marca. Una extensión de marca implica el uso de un nombre de marca exitoso para lanzar productos nuevos o modificados en una categoría nueva. 
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Multimarcas. Las compañías a menudo introducen marcas adicionales en la misma categoría de productos. 
 
                 .col-12.col-md-8
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Marcas nuevas. Una empresa podría considerar que el poder de su nombre de marca existente está disminuyendo, y que necesita un nuevo nombre de marca. O quizás una empresa idee un nuevo nombre de marca cuando ingresa a una nueva categoría de productos, donde ninguno de sus nombres de marca actuales es adecuado.
 
@@ -512,11 +511,11 @@
 
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Personalidad de la marca.]
 
-            img.mt-5.img-a(src="assets/curso/img_22.png").img-fluid
+            img.mt-5.img-a(src="@/assets/curso/img_22.png").img-fluid
 
             p.mt-5 Las marcas exitosas y establecidas asumen una personalidad de marca, que es un conjunto de características humanas asociadas con un nombre de marca. Los estudios demuestran que los consumidores suelen asignar rasgos de personalidad a los productos: tradicionales, románticos, resistentes, sofisticados, rebeldes, y que eligen las marcas que concuerdan más con la imagen propia o deseada. Se da personalidad a una marca mediante la publicidad que representa a cierto usuario o situación de uso y que transmite ciertas emociones o sentimientos que se asociaran con la marca. E. Harley-Davidson tiene rasgos asociados con masculinidad, desafío e individualismo vigoroso (Kerin,2018).
 
@@ -524,26 +523,26 @@
             .sub-ecored.mt-5#tema1_3_1
                 h3 1.3.1. Branding
 
-            img.mt-5.img-a(src="assets/curso/img_23.png").img-fluid
+            img.mt-5.img-a(src="@/assets/curso/img_23.png").img-fluid
 
             p.mt-5 El branding o la creación de una marca es un proceso integrativo, que busca construir marcas poderosas; es decir, marcas ampliamente conocidas, asociadas a elementos positivos, deseadas y compradas por una base amplia de consumidores. Esto incluye la definición de la identidad o imagen que se quiere tener en un mercado, su diseño gráfico y la puesta en escena de la marca frente a determinados públicos, de manera que tome relevancia y, además, rentabilidad a través de todos los procesos de compra y recompra de la misma (Hoyos,2016).
 
             .row.justify-content-center.align-items-center.mt-5
                 .col-auto
-                    img(src="assets/curso/img_24.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+                    img(src="@/assets/curso/img_24.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
                 .col-10
                     hr.border-color-primary.border-2
                     p #[strong Capital de marca.]
                     p El capital de marca es el efecto diferencial que el conocimiento del nombre de una marca tiene sobre la respuesta del cliente ante el producto o su comercialización. Es una medida de la capacidad que tiene la marca para obtener la preferencia y lealtad del cliente. Una marca tiene un capital positivo cuando los consumidores reaccionan de manera más favorable ante ella que ante una versión genérica o sin marca del mismo producto. A la inversa, una marca tiene un capital negativo si los consumidores reaccionan ante ella, de manera menos favorable que a una versión sin marca (Kotler,2017).
                     hr.border-color-primary.border-2
                 .col-auto
-                    img(src="assets/curso/img_25.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+                    img(src="@/assets/curso/img_25.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
                 .col-10
                     p #[strong Top of mind.]
                     p El top of mind o primera mención, se da cuando una persona, al ser indagada por una categoría específica, nombra una marca primero dentro de una serie de marcas que menciona, es decir, que dicha marca tiene el top of mind para dicha persona. En una investigación de top of mind, se preguntará a una base de personas, de un grupo objetivo específico, por marcas que recuerde y se estimará el promedio de personas que recuerdan una marca por sobre las demás. Dicho porcentaje será el top of mind de la categoría. En Colombia, anualmente, la Revista Dinero y la empresa de investigación de mercados, Invamer Gallup, realizan una investigación para establecer el top of mind de las marcas que compiten en este mercado. (Hoyos,2016) 
                     hr.border-color-primary.border-2
                 .col-auto
-                    img(src="assets/curso/img_26.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+                    img(src="@/assets/curso/img_26.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
                 .col-10
                     p #[strong E-branding.]
                     p Rowles (2014) define al e-branding como la personalidad de la organización, servicio o producto creado por la suma de todas experiencias que una persona tiene con la marca, incluyendo la interacción con las redes sociales y las evaluaciones críticas online del desempeño de una marca (online reviews). Es decir, en esencia la marca y sus indicadores como conocimiento de marca, posicionamiento, preferencia de marca, intención de compra, re-compra y recomendación de marca, permanecen intactas. Lo que cambia con el advenimiento de la era digital es la forma en que se construye marca. 
@@ -552,7 +551,7 @@
             .sub-ecored.mt-5#tema1_3_2
                 h3 1.3.2. Posicionamiento
             
-            img.mt-5.img-a(src="assets/curso/img_27.png").img-fluid
+            img.mt-5.img-a(src="@/assets/curso/img_27.png").img-fluid
 
             p.mt-5 El posicionamiento es lo que queremos que el consumidor piense acerca de nuestro producto, es decir, aquello que se constituye en la idea básica de venta, que generalmente es una afirmación o una frase. El posicionamiento se requiere cuando hay muchas alternativas de productos y marcas, muchos anuncios publicitarios, así como cuando la competencia ataca y cuando el producto entra al mercado. (Prieto,2013)
 
@@ -560,7 +559,7 @@
 
             .row.justify-content-center.align-items-center
                     .col-auto
-                        img(src="assets/curso/img_28.png", alt="").img-icon
+                        img(src="@/assets/curso/img_28.png", alt="").img-icon
                     .col
                         ul.list-unstyled
                             li.justify-content-center
@@ -640,70 +639,70 @@
                 .col-12.col-md-5
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 El liderazgo
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 El estilo de vida
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 El precio
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Los atributos
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 La competencia 
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 La ocasión de uso
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Los usuarios
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 La calidad
 
                 
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 La clase de producto
 
             
                     .row.justify-content-center.align-items-center.mt-5.card-text
                         .col-auto 
-                            img.img-a(src="assets/curso/img_21.png").img-fluid  
+                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
                         .col
                             p.mt-3.py-3 Los usos del producto
 
@@ -711,12 +710,12 @@
                 .col
                     p Un ejemplo de excelente posicionamiento es Colombiana, la nuestra. La gaseosa de los colombianos.
                 .col-auto
-                    img(src="assets/curso/img_29.png", alt="").img-icon
+                    img(src="@/assets/curso/img_29.png", alt="").img-icon
 
             .sub-ecored.mt-5#tema1_4
                 h2 1.4. Envase
 
-            img.mt-5.img-a(src="assets/curso/img_30.png").img-fluid   
+            img.mt-5.img-a(src="@/assets/curso/img_30.png").img-fluid   
 
             p.mt-5 El envase junto con la etiqueta informa al posible comprador sobre el producto, que contiene, sus características, la empresa que lo elabora y la marca. (Martinez,2014)
 
@@ -724,11 +723,11 @@
 
             h2.text-center.mt-5 Tipos de envases.
 
-            img.mt-5.img-a(src="assets/curso/img_31.png").img-fluid 
+            img.mt-5.img-a(src="@/assets/curso/img_31.png").img-fluid 
                             
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Funciones del envase.]
 
@@ -759,11 +758,11 @@
                             i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                             | #[strong Comunicación:] El envase cumple dos funciones específicas: 
 
-            img.mt-5.img-a(src="assets/curso/img_32.png").img-fluid 
+            img.mt-5.img-a(src="@/assets/curso/img_32.png").img-fluid 
 
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Condiciones del envase.]
 
@@ -802,11 +801,11 @@
 
                     p El empaquetado de un producto también conocido como packaging tiene como objetivo fundamental atraer la atención del cliente. La presentación de un producto puede determinar que este sea un éxito o un fracaso. En ocasiones ayuda a facilitar el reconocimiento de las marcas. El packaging contiene, protege, conserva, transporta, informa y vende (Martinez,2014).
                 .col-auto
-                    img(src="assets/curso/img_33.png", alt="").img-icon
+                    img(src="@/assets/curso/img_33.png", alt="").img-icon
 
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Beneficios del empaque.]
 
@@ -852,7 +851,7 @@
                 .col
                     p Hernández (2017) Define el embalaje como un contenedor colectivo, que agrupa varios envases primarios y secundarios (empaques), con la finalidad de unificarlos, protegerlos, facilitar su manejo, almacenamiento, transporte y distribución. También se le conoce como el “envase de distribución”. Las dos principales funciones del embalaje son unificar y proteger la mercancía durante su distribución.
                 .col-auto
-                    img(src="assets/curso/img_34.png", alt="").img-icon
+                    img(src="@/assets/curso/img_34.png", alt="").img-icon
 
             p.header-step
                         span.header-step-number.text-color-orange a
@@ -898,7 +897,7 @@
             .sub-ecored.mt-5#tema1_7 
                 h2 1.7. Etiqueta
 
-            img.mt-5.img-a(src="assets/curso/img_35.png").img-fluid 
+            img.mt-5.img-a(src="@/assets/curso/img_35.png").img-fluid 
 
             p.mt-5 Una etiqueta es una parte integral del empaque, la cual identifica el producto o marca, quién, dónde y cuándo lo hizo, cómo debe usarse, cuál es su contenido y sus ingredientes (Kerin,2018).
 
@@ -906,7 +905,7 @@
 
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Objetivos de las etiquetas.]
 
@@ -924,36 +923,36 @@
 
             .row.mt-5
                 .col-1.col-md-1.flecha
-                    img(src="assets/curso/img_6.png").img-icon
+                    img(src="@/assets/curso/img_6.png").img-icon
                 .col-9.col-md-9
                     p #[strong Elementos que debe considerar la etiqueta:]
 
-            img.img-a(src="assets/curso/img_36.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_36.png").img-fluid 
 
             .row.justify-content-center.align-items-center 
 
                 .col-12.col-md-4.my-6
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Marca.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Nombre y dirección del fabricante.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Denominación del producto.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Naturaleza del mismo.]
 
@@ -961,19 +960,19 @@
                 .col-12.col-md-4.my-6
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Contenido neto y en su caso el peso drenado.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Número del registro de la Secretaría de Salud.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Composición física y química.]
 
@@ -981,19 +980,19 @@
                 .col-12.col-md-4.my-6
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Identificación del producto.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Fecha de fabricación, de caducidad, etcétera.]
 
                     .row
                         .col-1.col-md-1.flecha
-                            img(src="assets/curso/img_37.png").img-icon
+                            img(src="@/assets/curso/img_37.png").img-icon
                         .col-9.col-md-9
                             p #[strong Instrucciones de uso o avisos de advertencia, como los que aparecen en los cigarros.]
 
@@ -1002,7 +1001,7 @@
                 .col-12.col-md-3.my-6.mt-5-md-0 
                     .card
                         .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="assets/curso/img_38.png").avatar-img
+                            img(src="@/assets/curso/img_38.png").avatar-img
 
                         p.header-step.flex-column.justify-content-center.align-items-center
                             p Deben ser adaptables al envase en tamaño, color, forma, material, etcétera.
@@ -1011,7 +1010,7 @@
                 .col-12.col-md-3.my-6.mt-5-md-0
                     .card 
                         .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="assets/curso/img_39.png").avatar-img
+                            img(src="@/assets/curso/img_39.png").avatar-img
 
                         p.header-step.flex-column.justify-content-center.align-items-center
                             p El material deberá ser resistente para que perdure desde la salida del producto del almacén hasta llegar a manos del consumidor final. 
@@ -1019,7 +1018,7 @@
                 .col-12.col-md-3.my-6.mt-5-md-0
                     .card 
                         .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="assets/curso/img_40.png").avatar-img
+                            img(src="@/assets/curso/img_40.png").avatar-img
 
                         p.header-step.flex-column.justify-content-center.align-items-center
                             p Tienen que estar perfectamente adheridas para evitar su desprendimiento o que se pueda confundir con algún otro artículo.
@@ -1027,7 +1026,7 @@
                 .col-12.col-md-3.my-6.mt-5-md-0
                     .card 
                         .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="assets/curso/img_41.png").avatar-img
+                            img(src="@/assets/curso/img_41.png").avatar-img
 
                         p.header-step.flex-column.justify-content-center.align-items-center
                             p Deben contener todos los elementos descritos para evitar aspectos dudosos para el consumidor.
@@ -1035,7 +1034,7 @@
             .sub-ecored.mt-5#tema1_7_1 
                 h3 1.7.1. Códigos barras
 
-            img.img-a(src="assets/curso/img_42.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_42.png").img-fluid 
 
             p.mt-5 Para la identificación del producto se ha extendido el uso del código de barras que se abrevia en inglés como UPC y significa Código Universal del Producto. Es indispensable para aquellos bienes que se adquieren en el autoservicio o almacenes, a efecto de que las computadoras de una bodega o un comercio identifiquen plenamente cada artículo a través de la lectura con rayo láser y se activen los programas de precios y facturación, así como las entradas y salidas del inventario (Hernández,2017).
 
@@ -1043,20 +1042,20 @@
 
             p Actualmente, el Código EAN 13. Es el más utilizado entre todas las aplicaciones del GS1. A veces conocido como GTIN (Global Trade Item Number). Es el código de uso corriente para lectura en las cajas registradoras en los autoservicios, es decir, es el sistema utilizado para la codificación de bienes de consumo. El EAN 13 está compuesto por 13 dígitos, generalmente la estructura de la codificación es la siguiente según Vélez (2014):
 
-            img.img-a(src="assets/curso/img_43.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_43.png").img-fluid 
 
             .row.justify-content-center.align-items-center.mt-5
                 .col-10.col-md-9
                     .row
                         .col-auto
-                            img(src="assets/curso/img_44.png", alt="").img-icon
+                            img(src="@/assets/curso/img_44.png", alt="").img-icon
                         .col
                             p Código QR (Quick Response), o código 2D (Dos dimensiones). Creado en 1994 por una subsidiaria de Toyota. Almacena datos hasta de 7.000 caracteres. De común aplicación industrial en Japón y muy utilizado hoy en publicidad, luego de que a los teléfonos móviles se les incluyó software para leerlo. Es un código libre de derechos de patente. (Vélez,2014)
 
             .sub-ecored.mt-5#tema1_7_2 
                 h3 1.7.2. Etiqueta RFID    
 
-            img.img-a(src="assets/curso/img_45.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_45.png").img-fluid 
 
             p.mt-5 La tecnología para identificar objetos mediante ondas de radiofrecuencia llamada Radio Frequency Identification (RFID), también denominada Dedicated Short Range Communication (DSRC). Esta tecnología identifica el producto y sigue su ruta desde la fábrica hasta el consumidor. Tiene muchas ventajas: no es necesario que esté en contacto directo con un escáner —ya que permite identificar y localizar al proveedor de artículos más inmediato en la cadena de suministro de cualquier compañía, sector y ubicación en el mundo—; realiza lecturas más rápidas y más precisas (eliminando la necesidad de tener una línea de visión directa); permite niveles más bajos en el inventario; mejora el flujo de caja y la reducción potencial de gastos generales; reduce mermas de inventario, capacidad de informar al personal o a los encargados del tiempo para reabastecer las estanterías o corregir la ubicación del artículo que se ha colocado en el sitio equivocado; ayuda a conocer exactamente qué elementos han sido sustraídos y de ser necesario, dónde localizarlos; previene el robo en tienda; lucha contra la falsificación y facilita el retiro del mercado del producto que ha caducado (Hernandez,2017).
 
@@ -1068,29 +1067,29 @@
                 .col-10.col-md-9
                     .row
                         .col-auto
-                            img(src="assets/curso/img_46.png", alt="").img-icon
+                            img(src="@/assets/curso/img_46.png", alt="").img-icon
                         .col
                             .row
                                 .col-1.col-md-1.flecha
-                                    img(src="assets/curso/img_37.png").img-icon
+                                    img(src="@/assets/curso/img_37.png").img-icon
                                 .col-9.col-md-9
                                     p #[strong Marca.]
                                     p.mt-0 2 posiciones indican el número de versión utilizada en ese EPC
                             .row
                                 .col-1.col-md-1.flecha
-                                    img(src="assets/curso/img_37.png").img-icon
+                                    img(src="@/assets/curso/img_37.png").img-icon
                                 .col-9.col-md-9
                                     p #[strong Administrador EPC.]
                                     p.mt-0 6 posiciones indican la empresa que se hace responsable.
                             .row
                                 .col-1.col-md-1.flecha
-                                    img(src="assets/curso/img_37.png").img-icon
+                                    img(src="@/assets/curso/img_37.png").img-icon
                                 .col-9.col-md-9
                                     p #[strong Categoría de objeto.]
                                     p.mt-0 6 posiciones identifican el tipo de producto.
                             .row
                                 .col-1.col-md-1.flecha
-                                    img(src="assets/curso/img_37.png").img-icon
+                                    img(src="@/assets/curso/img_37.png").img-icon
                                 .col-9.col-md-9
                                     p #[strong Número serial.]
                                     p.mt-0 9 posiciones forman el identificador universal inequívoco de ítem.
@@ -1101,7 +1100,7 @@
             .sub-ecored.mt-5#tema1_8 
                 h2 1.8. Marketing Green
 
-            img.img-a(src="assets/curso/img_47.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_47.png").img-fluid 
 
             p.mt-5 Kotler (2017), determina que tanto los consumidores como las empresas están cambiando su perspectiva sobre los problemas ambientales y da las siguientes perspectivas:
 
@@ -1119,7 +1118,7 @@
             .sub-ecored.mt-5#tema1_9 
                 h2 1.9. Marketing Social
 
-            img.img-a(src="assets/curso/img_48.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_48.png").img-fluid 
 
             p.mt-5 El marketing social se aplica cuando existen organizaciones que, comprometidas con la situación de una ciudad, desarrollan programas de comunicación, buscando concientizar a los ciudadanos acerca de la necesidad de mantener en buen estado los parques, no fumar en lugares públicos, respetar a los ancianos, navidad sin pólvora o sin niños quemados, entre otras. En general el marketing social pretende generar, a través de sus acciones, protección y bienestar para la comunidad (Prettel,2016). 
 
@@ -1145,17 +1144,17 @@
             .sub-ecored.mt-5#tema1_10 
                 h2 1.10. Normativa
 
-            img.img-a(src="assets/curso/img_49.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_49.png").img-fluid 
 
             p.mt-5 Los productos y las marcas hoy en día son el mayor activo de las empresas. Por tanto, es necesario que se asegure que tengan la debida protección legal, tanto a nivel nacional como internacional y se garantice la sostenibilidad de las empresas, puesto que estas sin marcas no podrían existir. (Hoyos,2016)
 
-            img.img-a(src="assets/curso/img_50.png").img-fluid 
+            img.img-a(src="@/assets/curso/img_50.png").img-fluid 
 
             p.mt-5 En Colombia la protección industrial se da a través de la Superintendencia de industria y comercio SIC https://www.sic.gov.co/propiedad-Industrial es la autoridad nacional de protección de la competencia, los datos personales y la metrología legal, protege los derechos de los consumidores y administra el Sistema Nacional de Propiedad Industrial, a través del ejercicio de sus funciones administrativas y jurisdiccionales. Se pueden proteger las marcas y signos distintivos, patentes y nuevas creaciones y los servicios de seguimiento a nuevas tecnologías. 
 
             p Para la protección de los derechos de autor esta la dirección nacional de derechos de autor http://derechodeautor.gov.co/ Ente institucional para fortalecer la debida y adecuada protección de los diversos titulares del derecho de autor y los derechos conexos, contribuyendo a la formación, desarrollo y sustentación de una cultura nacional de respeto por los derechos de los diversos autores y titulares de las obras literarias y artísticas.
 
-            img.img-a(src="assets/curso/img_51.png").img-fluid
+            img.img-a(src="@/assets/curso/img_51.png").img-fluid
 
             p.mt-5 Para que una marca pueda ser registrada debe cumplir con tres condiciones principalmente: distintividad, perceptibilidad y susceptibilidad de representación gráfica (Godoy, 2006).
 
