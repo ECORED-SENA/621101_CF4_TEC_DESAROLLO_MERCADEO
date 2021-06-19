@@ -139,107 +139,104 @@
 
         
     .row.justify-content-center.mt-5.my-5
-        .col-10.col-md-9
-            p En el desarrollo de nuevos productos se distinguen 6 etapas: generación de ideas relacionadas con nuevos productos, selección de ideas o el concepto del nuevo producto, desarrollo preliminar o análisis del negocio, desarrollo de prototipos, validación e implementación o pruebas de mercado y por último salida al mercado o comercialización. (Hernandez,2017)
+      .col-10.col-md-9
+        p En el desarrollo de nuevos productos se distinguen 6 etapas: generación de ideas relacionadas con nuevos productos, selección de ideas o el concepto del nuevo producto, desarrollo preliminar o análisis del negocio, desarrollo de prototipos, validación e implementación o pruebas de mercado y por último salida al mercado o comercialización. (Hernandez,2017)
 
-        .sub-ecored.mt-5#tema1_1_1
-            h3 1.1.1. Atributos
+    .sub-ecored.mt-5#tema1_1_1
+      h3 1.1.1. Atributos
 
-            p Para Kotler (2017), el desarrollo de un producto o servicio implica definir los beneficios que ofrecerá. Estos beneficios se comunican y entregan a través de atributos del producto como calidad, características y estilo y diseño.
+      p Para Kotler (2017), el desarrollo de un producto o servicio implica definir los beneficios que ofrecerá. Estos beneficios se comunican y entregan a través de atributos del producto como calidad, características y estilo y diseño.
 
-            img.mt-5.img-a(src="@/assets/curso/img_8.png").img-fluid
+      img.mt-5.img-a(src="@/assets/curso/img_8.png").img-fluid
 
-            .row.justify-content-center.mt-5.my-5
-                .col-10.col-md-9
-                    ul.list-unstyled
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Calidad del producto]. Tiene un impacto directo en el desempeño del producto o servicio, está muy vinculada con el valor para el cliente y su satisfacción. Se define como “estar libre de defectos”. Siemens define la calidad en la siguiente forma: “La calidad se da cuando regresan nuestros clientes, no nuestros productos”. (Kotler,2017) 
+      .row.justify-content-center.mt-5.my-5
+          .col-10.col-md-9
+              ul.list-unstyled
+                  li.justify-content-center.mt-5
+                      i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                      | #[strong Calidad del producto]. Tiene un impacto directo en el desempeño del producto o servicio, está muy vinculada con el valor para el cliente y su satisfacción. Se define como “estar libre de defectos”. Siemens define la calidad en la siguiente forma: “La calidad se da cuando regresan nuestros clientes, no nuestros productos”. (Kotler,2017) 
 
-                            P.mt-5 Cada uno la percibe de forma distinta; para unos significa durabilidad, confiabilidad y para otros apariencia y facilidad de uso, entre otros aspectos. (Hernandez,2017) Tiene dos elementos:
+                      P.mt-5 Cada uno la percibe de forma distinta; para unos significa durabilidad, confiabilidad y para otros apariencia y facilidad de uso, entre otros aspectos. (Hernandez,2017) Tiene dos elementos:
 
-            .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-5
 
-                .col-6.col-md-5
-                    .card-media.color-table1(style= 'min-height:230px')
-                        .card-media__body                 
-                            
-                            p.card__copy 
-                                span 
-                                    |  El nivel de calidad de un artículo se mide por comparación con la de otros equiparables en características, precio, distribución o promoción. Como consecuencia, los consumidores juzgan la calidad mediante comparaciones.
+        .col-6.col-md-5
+          .card-media.color-table1(style= 'min-height:230px')
+            .card-media__body                 
+              p.card__copy 
+                span 
+                    |  El nivel de calidad de un artículo se mide por comparación con la de otros equiparables en características, precio, distribución o promoción. Como consecuencia, los consumidores juzgan la calidad mediante comparaciones.
 
-                .col-6.col-md-5
-                    .card-media.color-table1(style= 'min-height:230px')
-                        .card-media__body                 
-                            
-                            p.card__copy 
-                                span 
-                                    |  La consistencia es la capacidad de un producto para suministrar el mismo nivel de calidad con el transcurso del tiempo. 
+        .col-6.col-md-5
+          .card-media.color-table1(style= 'min-height:230px')
+              .card-media__body                 
+                p.card__copy 
+                  span La consistencia es la capacidad de un producto para suministrar el mismo nivel de calidad con el transcurso del tiempo. 
 
-            .row.justify-content-center.mt-5.my-5
-                .col-10.col-md-9
-                    ul.list-unstyled
-                        li.justify-content-center
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Estilo y diseño del producto]. El estilo describe la apariencia de un producto. Los estilos pueden ser atractivos o aburridos. Un estilo sensacional puede captar la atención y generar una estética agradable, pero no necesariamente un mejor desempeño. El diseño es más profundo, contribuye a la utilidad del producto tanto en su apariencia. (Kotler,2017)
+      .row.justify-content-center.mt-5.my-5
+          .col-10.col-md-9
+              ul.list-unstyled
+                  li.justify-content-center
+                      i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                      | #[strong Estilo y diseño del producto]. El estilo describe la apariencia de un producto. Los estilos pueden ser atractivos o aburridos. Un estilo sensacional puede captar la atención y generar una estética agradable, pero no necesariamente un mejor desempeño. El diseño es más profundo, contribuye a la utilidad del producto tanto en su apariencia. (Kotler,2017)
 
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Marca o Branding]. Una marca es un nombre, símbolo o diseño que identifican al fabricante o vendedor de un producto o servicio. Los consumidores consideran que el branding agrega valor al producto. Los clientes asignan significados a las marcas y desarrollan relaciones con ellas. (Kotler,2017)
+                  li.justify-content-center.mt-5
+                      i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                      | #[strong Marca o Branding]. Una marca es un nombre, símbolo o diseño que identifican al fabricante o vendedor de un producto o servicio. Los consumidores consideran que el branding agrega valor al producto. Los clientes asignan significados a las marcas y desarrollan relaciones con ellas. (Kotler,2017)
 
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Empaque]. Implica diseño y producción del envase o de la envoltura de un artículo. La función primordial es contener y proteger el producto. El empaque debe llamar la atención de los compradores y comunicar el posicionamiento de la marca hasta cerrar la venta. (Kotler,2017)
+                  li.justify-content-center.mt-5
+                      i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                      | #[strong Empaque]. Implica diseño y producción del envase o de la envoltura de un artículo. La función primordial es contener y proteger el producto. El empaque debe llamar la atención de los compradores y comunicar el posicionamiento de la marca hasta cerrar la venta. (Kotler,2017)
 
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Etiquetado]. Va desde etiquetas sencillas adheridas a los productos hasta gráficos complejos que forman parte del empaque. Una etiqueta identifica el producto o la marca, describe aspectos acerca del producto (quién lo hizo, dónde y cuándo, qué contiene, cómo se usa y las medidas de seguridad pertinentes) y promueve la marca, apoya su posicionamiento y conecta con los clientes. (Kotler,2017)
+                  li.justify-content-center.mt-5
+                      i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                      | #[strong Etiquetado]. Va desde etiquetas sencillas adheridas a los productos hasta gráficos complejos que forman parte del empaque. Una etiqueta identifica el producto o la marca, describe aspectos acerca del producto (quién lo hizo, dónde y cuándo, qué contiene, cómo se usa y las medidas de seguridad pertinentes) y promueve la marca, apoya su posicionamiento y conecta con los clientes. (Kotler,2017)
 
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Garantía de un producto]. Es la declaración que indica la responsabilidad del fabricante por defectos del producto. Hay varios tipos de garantías de producto con distintas implicaciones para fabricantes y consumidores. Una garantía de cobertura limitada especifica los límites de la cobertura y las áreas de no cobertura. Una garantía total no tiene límites de cobertura. Cada país tiene su propia normativa en cuanto a garantías y los fabricantes se han atenido a las garantías implícitas, que les asignan la responsabilidad por deficiencias en sus productos. Los estudios muestran que el tipo de garantía puede afectar la evaluación que del producto hace el consumidor. (Kerin,2018)
+                  li.justify-content-center.mt-5
+                      i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                      | #[strong Garantía de un producto]. Es la declaración que indica la responsabilidad del fabricante por defectos del producto. Hay varios tipos de garantías de producto con distintas implicaciones para fabricantes y consumidores. Una garantía de cobertura limitada especifica los límites de la cobertura y las áreas de no cobertura. Una garantía total no tiene límites de cobertura. Cada país tiene su propia normativa en cuanto a garantías y los fabricantes se han atenido a las garantías implícitas, que les asignan la responsabilidad por deficiencias en sus productos. Los estudios muestran que el tipo de garantía puede afectar la evaluación que del producto hace el consumidor. (Kerin,2018)
 
             img.mt-5.img-a(src="@/assets/curso/img_9.png").img-fluid
 
-        .sub-ecored.mt-5#tema1_1_2
-            h3 1.1.2. Ciclo de vida
+      .sub-ecored.mt-5#tema1_1_2
+        h3 1.1.2. Ciclo de vida
 
-            p Se considera que los productos, al igual que los seres humanos, tienen un ciclo de vida. El concepto ciclo de vida del producto describe las etapas por las que pasa un nuevo producto en el mercado: introducción, crecimiento, madurez y decadencia (Kerin,2018).
+      p Se considera que los productos, al igual que los seres humanos, tienen un ciclo de vida. El concepto ciclo de vida del producto describe las etapas por las que pasa un nuevo producto en el mercado: introducción, crecimiento, madurez y decadencia (Kerin,2018).
 
-            p Según Philip Kotler (2017) Después de lanzar un nuevo producto, la dirección desea una existencia larga y feliz. Aun cuando nadie espera que un producto se venda por siempre, la compañía busca obtener utilidades atractivas que compensen todos los esfuerzos realizados y los riesgos asumidos para lanzarlo. La dirección está consciente de que cada producto tiene un ciclo de vida, aunque no se conozcan de antemano su forma o su duración exactas.
+      p Según Philip Kotler (2017) Después de lanzar un nuevo producto, la dirección desea una existencia larga y feliz. Aun cuando nadie espera que un producto se venda por siempre, la compañía busca obtener utilidades atractivas que compensen todos los esfuerzos realizados y los riesgos asumidos para lanzarlo. La dirección está consciente de que cada producto tiene un ciclo de vida, aunque no se conozcan de antemano su forma o su duración exactas.
 
-            img.mt-5.img-a(src="@/assets/curso/img_10.png").img-fluid
+      img.mt-5.img-a(src="@/assets/curso/img_10.png").img-fluid
 
-            p El ciclo de vida del producto define el curso que siguen las ventas y utilidades de un producto durante su existencia, tiene cinco etapas bien definidas: 
+      p El ciclo de vida del producto define el curso que siguen las ventas y utilidades de un producto durante su existencia, tiene cinco etapas bien definidas: 
 
-            .row.justify-content-center.mt-5.my-5
-                .col-10.col-md-9
+      .row.justify-content-center.mt-5.my-5
+        .col-10.col-md-9
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 01
-                        span.header-step-title
-                            | Desarrollo del producto: inicia cuando la compañía encuentra y desarrolla la idea para un nuevo producto o servicio. Durante el desarrollo del producto, las ventas son iguales a cero y los costos de inversión de la compañía se incrementan. (Kotler,2017)
+          p.header-step
+              span.header-step-number.text-color-orange 01
+              span.header-step-title
+                  | Desarrollo del producto: inicia cuando la compañía encuentra y desarrolla la idea para un nuevo producto o servicio. Durante el desarrollo del producto, las ventas son iguales a cero y los costos de inversión de la compañía se incrementan. (Kotler,2017)
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 02
-                        span.header-step-title
-                            | Introducción: ocurre cuando el producto se presenta por primera vez en el mercado meta deseado. (Kerin,2018) Es un periodo de crecimiento lento de las ventas conforme el producto o servicio se lanza al mercado. Las utilidades son nulas en esta fase a causa de los considerables gastos del lanzamiento del producto. (Kotler,2017) #[br]Un ejemplo para la etapa de introducción es el último Smartphone sacado al mercado.
+          p.header-step
+              span.header-step-number.text-color-orange 02
+              span.header-step-title
+                  | Introducción: ocurre cuando el producto se presenta por primera vez en el mercado meta deseado. (Kerin,2018) Es un periodo de crecimiento lento de las ventas conforme el producto o servicio se lanza al mercado. Las utilidades son nulas en esta fase a causa de los considerables gastos del lanzamiento del producto. (Kotler,2017) #[br]Un ejemplo para la etapa de introducción es el último Smartphone sacado al mercado.
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 03
-                        span.header-step-title
-                            | Crecimiento: se caracteriza por rápidos aumentos en las ventas. En esta fase aparecen los competidores. (Kerin,2018) Es una etapa de aceptación rápida en el mercado y de incremento en las utilidades. (Kotler,2017)
+          p.header-step
+              span.header-step-number.text-color-orange 03
+              span.header-step-title
+                  | Crecimiento: se caracteriza por rápidos aumentos en las ventas. En esta fase aparecen los competidores. (Kerin,2018) Es una etapa de aceptación rápida en el mercado y de incremento en las utilidades. (Kotler,2017)
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 04
-                        span.header-step-title
-                            | Madurez: disminuye el crecimiento de las ventas porque el producto o servicio ya ganó la aceptación de la mayoría de los compradores potenciales. El nivel de utilidades se estabiliza o incluso disminuye a causa de los crecientes gastos de marketing para defender el producto frente a la competencia. (Kotler,2017)
+          p.header-step
+              span.header-step-number.text-color-orange 04
+              span.header-step-title
+                  | Madurez: disminuye el crecimiento de las ventas porque el producto o servicio ya ganó la aceptación de la mayoría de los compradores potenciales. El nivel de utilidades se estabiliza o incluso disminuye a causa de los crecientes gastos de marketing para defender el producto frente a la competencia. (Kotler,2017)
 
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 05
-                        span.header-step-title
-                            | Decadencia: es el periodo en el que tanto las ventas como las utilidades disminuyen. (Kotler,2017) Con frecuencia, un producto entra en esta etapa no por una estrategia equivocada por parte de la empresa, sino por cambios en el entorno. Una empresa seguirá una de dos estrategias para manejar un producto en decadencia: la eliminación o su drástica desaparición de la línea de productos y la cosecha que consiste en que el producto sigue ofreciéndose, aunque los vendedores no asignan tiempo para venderlo ni se realizan gastos de publicidad. (Kerin,2018)
+          p.header-step
+              span.header-step-number.text-color-orange 05
+              span.header-step-title
+                  | Decadencia: es el periodo en el que tanto las ventas como las utilidades disminuyen. (Kotler,2017) Con frecuencia, un producto entra en esta etapa no por una estrategia equivocada por parte de la empresa, sino por cambios en el entorno. Una empresa seguirá una de dos estrategias para manejar un producto en decadencia: la eliminación o su drástica desaparición de la línea de productos y la cosecha que consiste en que el producto sigue ofreciéndose, aunque los vendedores no asignan tiempo para venderlo ni se realizan gastos de publicidad. (Kerin,2018)
 
             p A continuación, Hernández (2017) realiza un cuadro sobre las características e implicaciones de cada etapa del ciclo de vida del producto.
 
