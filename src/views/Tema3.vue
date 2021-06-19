@@ -196,26 +196,24 @@
                       i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                       | #[strong Garantía de un producto]. Es la declaración que indica la responsabilidad del fabricante por defectos del producto. Hay varios tipos de garantías de producto con distintas implicaciones para fabricantes y consumidores. Una garantía de cobertura limitada especifica los límites de la cobertura y las áreas de no cobertura. Una garantía total no tiene límites de cobertura. Cada país tiene su propia normativa en cuanto a garantías y los fabricantes se han atenido a las garantías implícitas, que les asignan la responsabilidad por deficiencias en sus productos. Los estudios muestran que el tipo de garantía puede afectar la evaluación que del producto hace el consumidor. (Kerin,2018)
 
-            img.mt-5.img-a(src="@/assets/curso/img_9.png").img-fluid
+    img.mt-5.img-a(src="@/assets/curso/img_9.png").img-fluid
 
-      .sub-ecored.mt-5#tema1_1_2
+    .sub-ecored.mt-5#tema1_1_2
         h3 1.1.2. Ciclo de vida
 
-      p Se considera que los productos, al igual que los seres humanos, tienen un ciclo de vida. El concepto ciclo de vida del producto describe las etapas por las que pasa un nuevo producto en el mercado: introducción, crecimiento, madurez y decadencia (Kerin,2018).
+    p Se considera que los productos, al igual que los seres humanos, tienen un ciclo de vida. El concepto ciclo de vida del producto describe las etapas por las que pasa un nuevo producto en el mercado: introducción, crecimiento, madurez y decadencia (Kerin,2018).
+    p Según Philip Kotler (2017) Después de lanzar un nuevo producto, la dirección desea una existencia larga y feliz. Aun cuando nadie espera que un producto se venda por siempre, la compañía busca obtener utilidades atractivas que compensen todos los esfuerzos realizados y los riesgos asumidos para lanzarlo. La dirección está consciente de que cada producto tiene un ciclo de vida, aunque no se conozcan de antemano su forma o su duración exactas.
+    img.mt-5.img-a(src="@/assets/curso/img_10.png").img-fluid
 
-      p Según Philip Kotler (2017) Después de lanzar un nuevo producto, la dirección desea una existencia larga y feliz. Aun cuando nadie espera que un producto se venda por siempre, la compañía busca obtener utilidades atractivas que compensen todos los esfuerzos realizados y los riesgos asumidos para lanzarlo. La dirección está consciente de que cada producto tiene un ciclo de vida, aunque no se conozcan de antemano su forma o su duración exactas.
-
-      img.mt-5.img-a(src="@/assets/curso/img_10.png").img-fluid
-
-      p El ciclo de vida del producto define el curso que siguen las ventas y utilidades de un producto durante su existencia, tiene cinco etapas bien definidas: 
+    p El ciclo de vida del producto define el curso que siguen las ventas y utilidades de un producto durante su existencia, tiene cinco etapas bien definidas: 
 
       .row.justify-content-center.mt-5.my-5
         .col-10.col-md-9
 
           p.header-step
-              span.header-step-number.text-color-orange 01
-              span.header-step-title
-                  | Desarrollo del producto: inicia cuando la compañía encuentra y desarrolla la idea para un nuevo producto o servicio. Durante el desarrollo del producto, las ventas son iguales a cero y los costos de inversión de la compañía se incrementan. (Kotler,2017)
+            span.header-step-number.text-color-orange 01
+            span.header-step-title
+                | Desarrollo del producto: inicia cuando la compañía encuentra y desarrolla la idea para un nuevo producto o servicio. Durante el desarrollo del producto, las ventas son iguales a cero y los costos de inversión de la compañía se incrementan. (Kotler,2017)
 
           p.header-step
               span.header-step-number.text-color-orange 02
