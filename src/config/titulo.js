@@ -1,2 +1,1 @@
-module.exports =  
-  'Mezcla de producto'
+module.exports = 'Mezcla de producto'
