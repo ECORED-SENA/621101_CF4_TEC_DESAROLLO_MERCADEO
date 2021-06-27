@@ -147,23 +147,17 @@
 
                             P.mt-5 Cada uno la percibe de forma distinta; para unos significa durabilidad, confiabilidad y para otros apariencia y facilidad de uso, entre otros aspectos. (Hernandez,2017) Tiene dos elementos:
 
-            .row.justify-content-center.mt-5
-
-                .col-6.col-md-5
-                    .card-media.color-table1(style= 'min-height:230px')
-                        .card-media__body                 
-                            
-                            p.card__copy 
-                                span 
-                                    |  El nivel de calidad de un artículo se mide por comparación con la de otros equiparables en características, precio, distribución o promoción. Como consecuencia, los consumidores juzgan la calidad mediante comparaciones.
-
-                .col-6.col-md-5
-                    .card-media.color-table1(style= 'min-height:230px')
-                        .card-media__body                 
-                            
-                            p.card__copy 
-                                span 
-                                    |  La consistencia es la capacidad de un producto para suministrar el mismo nivel de calidad con el transcurso del tiempo. 
+            .row.mb-5
+                .col-lg-6
+                    .cajon.color-secundario.p-4.mb-4
+                        p
+                            span.text-bold El nivel de calidad 
+                            | de un artículo se mide por comparación con la de otros equiparables en características, precio, distribución o promoción. Como consecuencia, los consumidores juzgan la calidad mediante comparaciones.
+                .col-lg-6
+                    .cajon.color-secundario.p-4.mb-4
+                        p
+                            span.text-bold La consistencia 
+                            | es la capacidad de un producto para suministrar el mismo nivel de calidad con el transcurso del tiempo. 
 
             .row.justify-content-center.mt-5.my-5
                 .col-10.col-md-9
@@ -198,7 +192,7 @@
 
             p Según Philip Kotler (2017) Después de lanzar un nuevo producto, la dirección desea una existencia larga y feliz. Aun cuando nadie espera que un producto se venda por siempre, la compañía busca obtener utilidades atractivas que compensen todos los esfuerzos realizados y los riesgos asumidos para lanzarlo. La dirección está consciente de que cada producto tiene un ciclo de vida, aunque no se conozcan de antemano su forma o su duración exactas.
 
-            img.mt-5.img-a(src="@/assets/curso/img_10.png").img-fluid
+            img.mt-5.img-a(src="@/assets/curso/t1-i9.svg").img-fluid
 
             p El ciclo de vida del producto define el curso que siguen las ventas y utilidades de un producto durante su existencia, tiene cinco etapas bien definidas: 
 
@@ -292,29 +286,30 @@
                 .col-auto
                     img(src="@/assets/curso/img_11.png", alt="").img-icon
 
-            .row.justify-content-center.mt-5.my-5
+            .row.justify-content-center
+                
+                .col-lg-10
+                    .tarjeta-avatar-b.mb-5.align-items-center
+                        img.h100(src='@/assets/curso/img_12.png' alt='AvatarTop')
+                        .tarjeta.tarjeta--gris
+                            .p-4
+                                .h4 Producto básico:
+                                p por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
 
-                .col-10.col-md-8
-                    .card-media.color-table_2
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="@/assets/curso/img_12.png").img-fluid
-                            p #[strong Producto básico:] por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
+                    .tarjeta-avatar-b.mb-5.align-items-center
+                        img.h100(src='@/assets/curso/img_13.png' alt='AvatarTop')
+                        .tarjeta.tarjeta--gris
+                            .p-4
+                                .h4 Servicios complementarios:
+                                p la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
 
+                    .tarjeta-avatar-b.mb-5.align-items-center
+                        img.h100(src='@/assets/curso/img_14.png' alt='AvatarTop')
+                        .tarjeta.tarjeta--gris
+                            .p-4
+                                .h4 Procesos de entrega:
+                                p se refiere a los procesos que se utilizan para entregar tanto el producto básico como cada uno de los servicios complementarios. El diseño de la oferta de servicios debe considerar los siguientes aspectos: La manera en la que los distintos componentes del servicio se entregan al cliente, la naturaleza del papel del cliente en dichos procesos, la duración de la entrega y el nivel y estilo prescritos de los servicios que se ofertaran. Ej. En el servicio de Hotelería los Horarios o rutas para el uso de sus servicios. (Lovelock,2015)
 
-                .col-10.col-md-8
-                    .card-media.color-table_2
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="@/assets/curso/img_13.png").img-fluid
-                            p #[strong Servicios complementarios:] la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
-
-                .col-10.col-md-8
-                    .card-media.color-table_2
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="@/assets/curso/img_14.png").img-fluid
-                            p #[strong Procesos de entrega:] se refiere a los procesos que se utilizan para entregar tanto el producto básico como cada uno de los servicios complementarios. El diseño de la oferta de servicios debe considerar los siguientes aspectos: La manera en la que los distintos componentes del servicio se entregan al cliente, la naturaleza del papel del cliente en dichos procesos, la duración de la entrega y el nivel y estilo prescritos de los servicios que se ofertaran. Ej. En el servicio de Hotelería los Horarios o rutas para el uso de sus servicios. (Lovelock,2015)
 
         .sub-ecored.mt-5#tema1_2_1
             h3 1.2.1. Experiencias
@@ -332,41 +327,20 @@
 
         p Según Kotler (2017) se tienen en cuenta cuatro características especiales de los servicios al diseñar programas de marketing: intangibilidad, inseparabilidad, variabilidad y caducidad.
 
-            
-        #accordionExample.accordion
-            .card
-                #headingOne.card-header
-                    h2.mb-0
-                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
-                            h2.mb-0.collapsable-title Intangibilidad
-                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
-                    .card-body
-                        | Los servicios no se pueden observar, degustar, tocar, escuchar ni oler antes de adquirirlos. Por ejemplo, la gente que se somete a una cirugía cosmética no puede ver los resultados antes de la compra. Para reducir la incertidumbre, los consumidores buscan “señales” acerca de la calidad de un servicio. (Kotler,2017) 
-            .card
-                #headingTwo.card-header
-                    h2.mb-0
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
-                            h2.mb-0.collapsable-title Inseparabilidad
-                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
-                    .card-body
-                        | Los productos tangibles se producen, se almacenan, se venden y finalmente se consumen. En cambio, los servicios primero se venden, y se producen y consumen al mismo tiempo. La inseparabilidad del servicio se refiere a que éste no puede separarse de sus proveedores, los cuales son tanto individuos como máquinas. Tanto el proveedor como el cliente influyen en el resultado del servicio. (Kotler,2017)
-            .card
-                #headingThree.card-header
-                    h2.mb-0
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
-                            h2.mb-0.collapsable-title Variabilidad
-                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
-                    .card-body
-                        | Implica que la calidad de los servicios depende de quién los proporciona, así como de cuándo, dónde y cómo los proporciona. Ej. En un hotel tienen la reputación de dar mejor servicio, quizás el recepcionista sea alegre y eficiente mientras que el botones sea desagradable y lento. (Kotler,2017) 
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+            .row(titulo="Intangibilidad")
+                .col-md-10.mb-4.mb-md-0
+                p Los servicios no se pueden observar, degustar, tocar, escuchar ni oler antes de adquirirlos. Por ejemplo, la gente que se somete a una cirugía cosmética no puede ver los resultados antes de la compra. Para reducir la incertidumbre, los consumidores buscan “señales” acerca de la calidad de un servicio. (Kotler,2017) 
+            div(titulo="Inseparabilidad")
+                .col-md-10.mb-4.mb-md-0
+                p Los productos tangibles se producen, se almacenan, se venden y finalmente se consumen. En cambio, los servicios primero se venden, y se producen y consumen al mismo tiempo. La inseparabilidad del servicio se refiere a que éste no puede separarse de sus proveedores, los cuales son tanto individuos como máquinas. Tanto el proveedor como el cliente influyen en el resultado del servicio. (Kotler,2017)
+            div(titulo="Variabilidad")
+                .col-md-10.mb-4.mb-md-0
+                p Implica que la calidad de los servicios depende de quién los proporciona, así como de cuándo, dónde y cómo los proporciona. Ej. En un hotel tienen la reputación de dar mejor servicio, quizás el recepcionista sea alegre y eficiente mientras que el botones sea desagradable y lento. (Kotler,2017)
+            div(titulo="Caducidad")
+                .col-md-10.mb-4.mb-md-0
+                p Los servicios no pueden almacenarse para su venta o uso posterior. (Kotler,2017)
 
-            .card
-                #headingFour.card-header
-                    h2.mb-0
-                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
-                            h2.mb-0.collapsable-title Caducidad
-                #collapseFour.collapse(aria-labelledby='headingFour', data-parent='#accordionExample')
-                    .card-body
-                        | Los servicios no pueden almacenarse para su venta o uso posterior. (Kotler,2017)
 
         img.mt-5.img-a(src="@/assets/curso/img_16.png").img-fluid
 
@@ -1282,4 +1256,5 @@ export default {
 <style lang="sass" scoped>
 .h90 {height: 90px}
 .bg-image-cover{background: url('../assets/curso/t1-i6.jpg'); background-size: cover;}
+.h100{height: 100px}
 </style>
