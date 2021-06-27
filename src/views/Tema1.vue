@@ -215,7 +215,9 @@
                 td.color-table3 Pocas o nulas
 
         p.text-center Fuente: (Hernández,2017) 
-
+    Separador
+    br
+    br
     #t1-2.titulo-segundo
       h2 1.2. Servicios
     
@@ -223,39 +225,34 @@
  
     p ¿Cómo se diseña un concepto de servicio? Para Lovelock (2015) El mercadeo de servicios experimentados reconocen la necesidad de adoptar una perspectiva integral del desempeño que desean que sus clientes experimenten. La propuesta de valor debe considerar e integrar tres componentes:
     //- Aquí viene nueva imagen
-    .row.justify-content-center.mt-5.my-5.mb-5
 
-      .col-10.col-md-8
-        .card-media.color-table_2
-          .card-media__body                 
-            figure.card__figure
-              img(src="@/assets/curso/img_12.png")
-              p 
-                span.text-bold  Producto básico:  
-                | por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
+    .row.justify-content-center.mb-5
+        .col-lg-10
+            .tarjeta-avatar-b.mb-5.align-items-center
+                img(src='@/assets/curso/img_12.png' alt='AvatarTop')
+                .tarjeta.tarjeta--gris
+                    .p-4
+                        .h4 Producto básico:
+                        p por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
+
+            .tarjeta-avatar-b.mb-5.align-items-center
+                img(src='@/assets/curso/img_13.png' alt='AvatarTop')
+                .tarjeta.tarjeta--gris
+                    .p-4
+                        .h4 Servicios complementarios:
+                        p la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
+
+            .tarjeta-avatar-b.mb-5.align-items-center
+                img(src='@/assets/curso/img_14.png' alt='AvatarTop')
+                .tarjeta.tarjeta--gris
+                    .p-4
+                        .h4 Procesos de entrega:
+                        p se refiere a los procesos que se utilizan para entregar tanto el producto básico como cada uno de los servicios complementarios. El diseño de la oferta de servicios debe considerar los siguientes aspectos: La manera en la que los distintos componentes del servicio se entregan al cliente, la naturaleza del papel del cliente en dichos procesos, la duración de la entrega y el nivel y estilo prescritos de los servicios que se ofertaran. Ej. En el servicio de Hotelería los Horarios o rutas para el uso de sus servicios. (Lovelock,2015)
 
 
-      .col-10.col-md-8
-        .card-media.color-table_2
-          .card-media__body                 
-            figure.card__figure
-              img(src="@/assets/curso/img_13.png")
-              p 
-                span.text-bold Servicios complementarios: 
-                | la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
+    
+    h3.titulo-tercero Experiencias
 
-      .col-10.col-md-8
-        .card-media.color-table_2
-          .card-media__body                 
-            figure.card__figure
-              img(src="@/assets/curso/img_14.png")
-              p
-                span.text-bold  Procesos de entrega: 
-                | se refiere a los procesos que se utilizan para entregar tanto el producto básico como cada uno de los servicios complementarios. El diseño de la oferta de servicios debe considerar los siguientes aspectos: La manera en la que los distintos componentes del servicio se entregan al cliente, la naturaleza del papel del cliente en dichos procesos, la duración de la entrega y el nivel y estilo prescritos de los servicios que se ofertaran. Ej. En el servicio de Hotelería los Horarios o rutas para el uso de sus servicios. (Lovelock,2015)
-    br
-    br
-    #t1-2.titulo-segundo
-      h2 Experiencias
     p.mb-3 Para diferenciar sus ofertas, más allá del simple hecho de fabricar productos y prestar servicios, las empresas están creando y entregando experiencias para los clientes con sus marcas o su compañía. Las experiencias siempre han formado parte importante del marketing. Desde hace mucho tiempo Disney crea sueños y recuerdos a través de sus películas y parques temáticos. Y hace mucho que Nike declaró: “No se trata tanto de los zapatos, sino de a dónde te llevan”. Hoy todo tipo de empresas están rehaciendo sus tradicionales bienes y servicios para crear experiencias (Kotler,2017).
     p Los consumidores valoran las experiencias y las soluciones deseadas, y están dispuestos a pagar por ellas. No se puede poseer seres humanos, aunque sí puede contratar (alquilar) su trabajo y experiencia. Al pagar por el uso temporal de un objeto o por el acceso a una instalación física, los clientes disfrutan del uso de cosas que no pueden comprar o justificar su compra, o bien, que prefieren no conservar ni almacenar después de su uso. Además, el arrendamiento -por medio de tarifas de acceso y uso- ofrece a los clientes un medio para participar en sistemas de redes que los individuos y la mayoría de las organizaciones no podrían costear ni operar por sí mismos (Lovelock,2015).
     figure.mb-5
@@ -264,32 +261,35 @@
     h3.titulo-tercero Características
     p.mb-5 Según Kotler (2017) se tienen en cuenta cuatro características especiales de los servicios al diseñar programas de marketing: intangibilidad, inseparabilidad, variabilidad y caducidad.
 
-      AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Intangibilidad")
-          .col-md-10.mb-4.mb-md-0
-            p Los servicios no se pueden observar, degustar, tocar, escuchar ni oler antes de adquirirlos. Por ejemplo, la gente que se somete a una cirugía cosmética no puede ver los resultados antes de la compra. Para reducir la incertidumbre, los consumidores buscan “señales” acerca de la calidad de un servicio. (Kotler,2017) 
-        div(titulo="Inseparabilidad")
-          .col-md-10.mb-4.mb-md-0
-            p Los productos tangibles se producen, se almacenan, se venden y finalmente se consumen. En cambio, los servicios primero se venden, y se producen y consumen al mismo tiempo. La inseparabilidad del servicio se refiere a que éste no puede separarse de sus proveedores, los cuales son tanto individuos como máquinas. Tanto el proveedor como el cliente influyen en el resultado del servicio. (Kotler,2017)
-        div(titulo="Variabilidad")
-          .col-md-10.mb-4.mb-md-0
-            p Implica que la calidad de los servicios depende de quién los proporciona, así como de cuándo, dónde y cómo los proporciona. Ej. En un hotel tienen la reputación de dar mejor servicio, quizás el recepcionista sea alegre y eficiente mientras que el botones sea desagradable y lento. (Kotler,2017)
-        div(titulo="Caducidad")
-          .col-md-10.mb-4.mb-md-0
-            p Los servicios no pueden almacenarse para su venta o uso posterior. (Kotler,2017)
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    .row(titulo="Intangibilidad")
+        .col-md-10.mb-4.mb-md-0
+        p Los servicios no se pueden observar, degustar, tocar, escuchar ni oler antes de adquirirlos. Por ejemplo, la gente que se somete a una cirugía cosmética no puede ver los resultados antes de la compra. Para reducir la incertidumbre, los consumidores buscan “señales” acerca de la calidad de un servicio. (Kotler,2017) 
+    div(titulo="Inseparabilidad")
+        .col-md-10.mb-4.mb-md-0
+        p Los productos tangibles se producen, se almacenan, se venden y finalmente se consumen. En cambio, los servicios primero se venden, y se producen y consumen al mismo tiempo. La inseparabilidad del servicio se refiere a que éste no puede separarse de sus proveedores, los cuales son tanto individuos como máquinas. Tanto el proveedor como el cliente influyen en el resultado del servicio. (Kotler,2017)
+    div(titulo="Variabilidad")
+        .col-md-10.mb-4.mb-md-0
+        p Implica que la calidad de los servicios depende de quién los proporciona, así como de cuándo, dónde y cómo los proporciona. Ej. En un hotel tienen la reputación de dar mejor servicio, quizás el recepcionista sea alegre y eficiente mientras que el botones sea desagradable y lento. (Kotler,2017)
+    div(titulo="Caducidad")
+        .col-md-10.mb-4.mb-md-0
+        p Los servicios no pueden almacenarse para su venta o uso posterior. (Kotler,2017)
 
-      Separador
+
     .row.justify-content-center
       .col-lg-8.text-center
         figure
           img.mt-5.img-a(src="@/assets/curso/img_16.png")
-    .row.mt-5        
+    .row.mt-5.mb-5        
       .col-12.col-lg-12
         span.text-bold Evaluación de la calidad del servicio
         p Una vez que un consumidor prueba un servicio, ¿cómo lo evalúa? Principalmente, al comparar las expectativas sobre una oferta de servicio con la experiencia real que tiene con el mismo. Las diferencias entre las expectativas y la experiencia del consumidor se evalúan con base en dimensiones de la calidad del servicio. Las comunicaciones verbales, las necesidades personales, las experiencias previas y las actividades promocionales influyen en las expectativas, mientras que las experiencias reales están determinadas por la manera en la que una organización entrega su servicio en particular a través de competencias interpersonales (Kerin,2018).
         img.mt-5.img-a.img-fluid(src="@/assets/curso/t1-i11.jpg")
 
-    .sub-ecored.mt-5#tema1_3
+    Separador
+    br
+    br
+    .titulo-segundo.mt-5#tema1_3
       h2 1.3. Marca
     figure
       img.mt-5.img-a.img-fluid(src="@/assets/curso/img_18.png")
@@ -335,193 +335,174 @@
 
             p.text-center Fuente: Román, 1988
 
-            p La administración de la marca es la actividad en la que una organización emplea un nombre, frase, diseño o símbolos, o combinaciones de estos, para identificar sus productos y distinguirlos de los competidores. Un nombre de marca es cualquier palabra, elemento (diseño, sonido, forma o color) o combinación de estos, que se emplea para distinguir los bienes o servicios de un vendedor. El nombre comercial es una identidad mercantil y legal bajo la cual una empresa hace negocios. Una marca registrada identifica a una empresa registrada legalmente con su nombre de marca o con su nombre comercial, por lo que tiene la exclusividad de su uso, evitando que otros lo empleen. (Kerin,2018)
+            p.mb-5 La administración de la marca es la actividad en la que una organización emplea un nombre, frase, diseño o símbolos, o combinaciones de estos, para identificar sus productos y distinguirlos de los competidores. Un nombre de marca es cualquier palabra, elemento (diseño, sonido, forma o color) o combinación de estos, que se emplea para distinguir los bienes o servicios de un vendedor. El nombre comercial es una identidad mercantil y legal bajo la cual una empresa hace negocios. Una marca registrada identifica a una empresa registrada legalmente con su nombre de marca o con su nombre comercial, por lo que tiene la exclusividad de su uso, evitando que otros lo empleen. (Kerin,2018)
 
-            .row.mt-5
-                    .col-1.col-md-1.flecha
-                        img(src="@/assets/curso/img_6.png").img-icon
-                    .col-9.col-md-9
-                        p #[strong Tipos de marcas.]
+            h3.titulo-tercero   Tipos de marcas
 
-            img.mt-5.img-a(src="@/assets/curso/img_19.png").img-fluid
+            .row.justify-content-center.mb-5
+                .col-lg-6
+                    img(src="@/assets/curso/img_19.png")
 
-            .row.justify-content-center.mt-5.my-5
-                .col-10.col-md-9
+            .row.mb-5
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 1
+                        .h4 Marca corporativa
+                        p Se habla de marca corporativa cuando identifica a una empresa; puede, incluso, ser la misma de sus productos. Las empresas muy pequeñas y con un portafolio poco diversificado o empresas de servicios, no asignan a cada producto una marca, sino que todo lo anuncian y comercializan con la marca de la organización, es decir, con la marca corporativa. Para el caso de empresas grandes y diversificadas, la marca corporativa regularmente es diferente a la de sus productos. Ej. Multinacionales extranjeras Unilever y Procter & Gamble y las multinacionales colombianas Nutresa y Quala. (Hoyos,2016
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 01
-                        span.header-step-title
-                            | #[strong Marca corporativa.] Se habla de marca corporativa cuando identifica a una empresa; puede, incluso, ser la misma de sus productos. Las empresas muy pequeñas y con un portafolio poco diversificado o empresas de servicios, no asignan a cada producto una marca, sino que todo lo anuncian y comercializan con la marca de la organización, es decir, con la marca corporativa. Para el caso de empresas grandes y diversificadas, la marca corporativa regularmente es diferente a la de sus productos. Ej. Multinacionales extranjeras Unilever y Procter & Gamble y las multinacionales colombianas Nutresa y Quala. (Hoyos,2016
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 2
+                        .h4 Marca de producto
+                        p La marca de producto es aquella que se usa para identificar un bien o un servicio en particular. Como ejemplo de estas marcas se pueden mencionar: Fruco, Coco, Axe, Lux, Rexona, Vasenol y Knorr, que pertenecen a Unilever, una de las empresas líderes en consumo masivo a nivel mundial. (Hoyos,2016)
+            .row.mb-5    
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 3
+                        .h4 Marcas propias o marca de distribuidor
+                        p Es aquella que fabrica el canal para vender en sus puntos de venta, compitiendo con las marcas de los fabricantes. Se clasifican en dos: marca blanca se venden con el nombre del detallista (marca Éxito o Ekono) y las privadas que se venden con un nombre diferente al nombre de la cadena, pero que son “fabricadas” por esta o fabricadas por un tercero para esta. Arkitect y Bronzini, en vestuario; Simply, en electrodomésticos y Taeq en alimentos, son ejemplos de marcas privadas de almacenes Éxito. (Hoyos,2016)
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 4
+                        .h4 Marca colectiva
+                        p La desarrollan asociaciones de productores, fabricantes, prestadores de servicios, organizaciones o cualquier grupo de personas para identificar sus bienes y servicios. La marca colectiva busca explotar el buen nombre del cual gozan los integrantes y por extensión, la asociación misma, generando una ventaja competitiva frente a otros fabricantes que trabajan de manera individual. Ejemplo la Federación de Ganaderos –Fedegan–, presentó al mercado una marca colectiva para respaldar la producción de carne de seis frigoríficos asociados. El sello garantiza el origen del ganado, el sistema de clasificación de canales, los mecanismos de refrigeración y maduración de las carnes (Hoyos,2016)
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 02
-                        span.header-step-title
-                            | #[strong Marca de producto.] La marca de producto es aquella que se usa para identificar un bien o un servicio en particular. Como ejemplo de estas marcas se pueden mencionar: Fruco, Coco, Axe, Lux, Rexona, Vasenol y Knorr, que pertenecen a Unilever, una de las empresas líderes en consumo masivo a nivel mundial. (Hoyos,2016)
+            .row.mb-5    
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 5
+                        .h4 Denominación de origen
+                        p Es el nombre o indicación de un lugar geográfico, que puede ser un país, una región determinada o una ciudad, que se asocia a un producto con el fin de darle más valor frente a los consumidores, ya que “garantiza que dicho producto sea originario de un lugar y, por las costumbres de producción o transformación de sus habitantes, tiene unas características y una reputación que lo hacen diferente de los productos semejantes provenientes de otros lugares geográﬁcos” (SIC, 2012) En Colombia se puede mencionar las artesanías de Ráquira, el bizcocho de Achira de Huila y el emblemático Café de Colombia. (Hoyos,2016)
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 6
+                        .h4 Marca de certificación
+                        p “Son las que se utilizan para garantizar una calidad o estándar de un producto o servicio” (SIC, 2012). Están las marcas ingrediente, los ecosellos, y las marcas que certifican que las empresas o productos cumplen con ciertas normas de calidad. Ejemplos Cotton USA. (Hoyos,2016)
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 03
-                        span.header-step-title
-                            | #[strong Marcas propias o marca de distribuidor.] Es aquella que fabrica el canal para vender en sus puntos de venta, compitiendo con las marcas de los fabricantes. Se clasifican en dos: marca blanca se venden con el nombre del detallista (marca Éxito o Ekono) y las privadas que se venden con un nombre diferente al nombre de la cadena, pero que son “fabricadas” por esta o fabricadas por un tercero para esta. Arkitect y Bronzini, en vestuario; Simply, en electrodomésticos y Taeq en alimentos, son ejemplos de marcas privadas de almacenes Éxito. (Hoyos,2016)
+            .row.mb-5    
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 7
+                        .h4 Marcas destino
+                        p Son las desarrolladas para países (marca país), para ciudades o zonas de las ciudades. Hoy en día es común hablar de city marketing, haciendo referencia al marketing que se hace para un destino turístico y de inversión. La marca país se usa para hacer promoción hacia el exterior, buscando básicamente la promoción de las exportaciones y del turismo, además la promoción de la inversión extranjera. (Hoyos,2016)
+                .col-lg-6
+                    .tarjeta-numerada.color-primario.p-5.h-100
+                        .tarjeta-numerada__numero
+                            .h2 8
+                        .h4 Marcas personales
+                        p Aunque desde lo legal no existe este tipo de marca, el nombre de las personas, que existe en el concepto del registro civil y no del marcario, es una marca y, desde el marketing, debe recibir el tratamiento que se da a una marca comercial. Esto es importante para quienes viven del prestigio de sus nombres, como los profesionales independientes, los políticos y los artistas e, inclusive, quienes son empleados. Personal branding Ej. Natalia Paris, quien comercializa, entre otros productos, ropa interior, calzado, aceites, perfumes, revistas y servicios de telecomunicaciones. 
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 04
-                        span.header-step-title
-                            | #[strong Marca colectiva.] La desarrollan asociaciones de productores, fabricantes, prestadores de servicios, organizaciones o cualquier grupo de personas para identificar sus bienes y servicios. La marca colectiva busca explotar el buen nombre del cual gozan los integrantes y por extensión, la asociación misma, generando una ventaja competitiva frente a otros fabricantes que trabajan de manera individual. Ejemplo la Federación de Ganaderos –Fedegan–, presentó al mercado una marca colectiva para respaldar la producción de carne de seis frigoríficos asociados. El sello garantiza el origen del ganado, el sistema de clasificación de canales, los mecanismos de refrigeración y maduración de las carnes (Hoyos,2016)
+ 
+            h3.titulo-tercero   Construcción de marcas fuertes
+
+            .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+                .row.m-0.align-items-center.justify-content-between
+                    .col-lg-4.mb-4.mb-lg-0
+                        figure
+                            img(src="@/assets/curso/img_20.png")
+                    .col-lg-8
+                        .bloque-texto-a__texto.p-5
+                            p Kotler (2017) determina que el branding representa una decisión difícil y las principales decisiones de estrategia de marca implican la selección del nombre de marca, co-branding y el desarrollo de marca.
 
 
-                    p.header-step
-                        span.header-step-number.text-color-orange 05
-                        span.header-step-title
-                            | #[strong Denominación de origen.] Es el nombre o indicación de un lugar geográfico, que puede ser un país, una región determinada o una ciudad, que se asocia a un producto con el fin de darle más valor frente a los consumidores, ya que “garantiza que dicho producto sea originario de un lugar y, por las costumbres de producción o transformación de sus habitantes, tiene unas características y una reputación que lo hacen diferente de los productos semejantes provenientes de otros lugares geográﬁcos” (SIC, 2012) En Colombia se puede mencionar las artesanías de Ráquira, el bizcocho de Achira de Huila y el emblemático Café de Colombia. (Hoyos,2016)
-
-                    p.header-step
-                        span.header-step-number.text-color-orange 06
-                        span.header-step-title
-                            | #[strong Marca de certificación.] “Son las que se utilizan para garantizar una calidad o estándar de un producto o servicio” (SIC, 2012). Están las marcas ingrediente, los ecosellos, y las marcas que certifican que las empresas o productos cumplen con ciertas normas de calidad. Ejemplos Cotton USA. (Hoyos,2016)
-
-                    p.header-step
-                        span.header-step-number.text-color-orange 07
-                        span.header-step-title
-                            | #[strong Marcas destino.] Son las desarrolladas para países (marca país), para ciudades o zonas de las ciudades. Hoy en día es común hablar de city marketing, haciendo referencia al marketing que se hace para un destino turístico y de inversión. La marca país se usa para hacer promoción hacia el exterior, buscando básicamente la promoción de las exportaciones y del turismo, además la promoción de la inversión extranjera. (Hoyos,2016)
-
-                    p.header-step
-                        span.header-step-number.text-color-orange 08
-                        span.header-step-title
-                            | #[strong Marcas personales.] Aunque desde lo legal no existe este tipo de marca, el nombre de las personas, que existe en el concepto del registro civil y no del marcario, es una marca y, desde el marketing, debe recibir el tratamiento que se da a una marca comercial. Esto es importante para quienes viven del prestigio de sus nombres, como los profesionales independientes, los políticos y los artistas e, inclusive, quienes son empleados. Personal branding Ej. Natalia Paris, quien comercializa, entre otros productos, ropa interior, calzado, aceites, perfumes, revistas y servicios de telecomunicaciones. 
-
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Construcción de marcas fuertes.]
-
-            img.mt-5.img-a(src="@/assets/curso/img_20.png").img-fluid
-
-            p.mt-5 Kotler (2017) determina que el branding representa una decisión difícil y las principales decisiones de estrategia de marca implican la selección del nombre de marca, co-branding y el desarrollo de marca.
-
-            .row.justify-content-center.mt-5.my-5
-                .col-10.col-md-9
-                    ul.list-unstyled
-                        li.justify-content-center
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Selección del nombre de marca.] Un buen nombre contribuye al éxito de un producto; sin embargo, encontrar el mejor nombre de marca es una tarea difícil. Inicia con una revisión cuidadosa del producto y de sus beneficios, del mercado meta y de las estrategias de marketing propuestas. Después de eso, la asignación del nombre se vuelve una combinación de ciencia, arte y un poco de instinto. Algunas cualidades deseables para un nombre de marca son:
-
-            .row.justify-content-center.align-items-center.mt-5 
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Sugerir algo acerca de los beneficios y las cualidades del producto. Ej. Pinterest. 
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Fácil de pronunciar, reconocer y recordar. Ej. Twitter
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Distintivo
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Se pueda ampliar. Ej. Amazon.com se inició como vendedor de libros en línea, pero eligió un nombre que le permitiera expandirse a otras categorías.
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Facilidad de traducción y no causar confusión con los idiomas. 
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Registrarse y protegerse legalmente
-
-            .row.justify-content-center.mt-5.my-5
-                .col-10.col-md-9
-                    ul.list-unstyled
-                        li.justify-content-center
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Co-branding.] Si dos nombres de marca establecidos por diferentes compañías se usan en el mismo producto, surge el co-branding. Cada marca opera una categoría diferente, las marcas combinadas crean mayor atractivo para el consumidor y aumentan el capital de marca. Ej. Taco Bell y Doritos formaron equipo para crear los Doritos Locos Tacos. 
-
-                        li.mt-5.justify-content-center
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Desarrollo de marca.] Una compañía tiene cuatro opciones para desarrollar una marca: 
-
-            .row.justify-content-center.align-items-center.mt-5 
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Extensiones de línea. Cuando una empresa utiliza el nombre de una marca para introducir al mercado nuevas formas, nuevos colores, tamaños, ingredientes o sabores de una categoría de productos existente.  
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Extensiones de marca. Una extensión de marca implica el uso de un nombre de marca exitoso para lanzar productos nuevos o modificados en una categoría nueva. 
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Multimarcas. Las compañías a menudo introducen marcas adicionales en la misma categoría de productos. 
-
-                .col-12.col-md-8
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Marcas nuevas. Una empresa podría considerar que el poder de su nombre de marca existente está disminuyendo, y que necesita un nuevo nombre de marca. O quizás una empresa idee un nuevo nombre de marca cuando ingresa a una nueva categoría de productos, donde ninguno de sus nombres de marca actuales es adecuado.
-
-            table.table.table-nowrap.justify-content-center.text-center.mt-5
-                    thead
-                        tr
-                            th(scope='col').color-table Categoria Marca
-                            th(scope='col').color-table Existente 
-                            th(scope='col').color-table Nuevos
+            .row.justify-content-center.mt-5.mb-5
+                .col-lg-4
+                    .h3.titulo-tercero  Selección del nombre de marca.
+                    p.mb-5  Un buen nombre contribuye al éxito de un producto; sin embargo, encontrar el mejor nombre de marca es una tarea difícil. Inicia con una revisión cuidadosa del producto y de sus beneficios, del mercado meta y de las estrategias de marketing propuestas. Después de eso, la asignación del nombre se vuelve una combinación de ciencia, arte y un poco de instinto. Algunas cualidades deseables para un nombre de marca son:
+                .col-lg-6
+                    ul.lista-ul.mb-5.mt-5
+                        li 
+                            i.fas.fa-check
+                            |   Sugerir algo acerca de los beneficios y las cualidades del producto. Ej. Pinterest.
+                        li 
+                            i.fas.fa-check
+                            |   Fácil de pronunciar, reconocer y recordar. Ej. Twitter
                             
-                    tbody
-                        tr
-                            td.color-table2 Existente
-                            td.color-table2 Extensión de línea
-                            td.color-table2 Extensión de marca
+                        li 
+                            i.fas.fa-check
+                            |   Distintivo.
+                        li 
+                            i.fas.fa-check
+                            |   Se pueda ampliar. Ej. Amazon.com se inició como vendedor de libros en línea, pero eligió un nombre que le permitiera expandirse a otras categorías.
+                        li 
+                            i.fas.fa-check
+                            |   Facilidad de traducción y no causar confusión con los idiomas. 
+                        li 
+                            i.fas.fa-check
+                            |   Registrarse y protegerse legalmente.
+            .row.justify-content-center
+                .col-lg-10
+                    .h3.titulo-tercero  Co-branding
+                    p.mb-5  Si dos nombres de marca establecidos por diferentes compañías se usan en el mismo producto, surge el co-branding. Cada marca opera una categoría diferente, las marcas combinadas crean mayor atractivo para el consumidor y aumentan el capital de marca. Ej. Taco Bell y Doritos formaron equipo para crear los Doritos Locos Tacos.                   
 
-                        tr
-                            td.color-table3 Nuevos
-                            td.color-table3 Multimarcas
-                            td.color-table3 Marcas nuevas
+            .row.justify-content-center
+                .col-lg-10
+                    .h3.titulo-tercero  Desarrollo de marca
+                    p.mb-5  Una compañía tiene cuatro opciones para desarrollar una marca: 
+                .col-lg-10
+                    .row.mb-5
+                        .col-lg-6
+                            .card.h-100
+                                .card-body
+                                    .h5.card-title  Extensiones de línea
+                                    p   Cuando una empresa utiliza el nombre de una marca para introducir al mercado nuevas formas, nuevos colores, tamaños, ingredientes o sabores de una categoría de productos existente. 
 
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Personalidad de la marca.]
+                        .col-lg-6
+                            .card.h-100
+                                .card-body
+                                    .h5.card-title  Extensiones de marca
+                                    p   Una extensión de marca implica el uso de un nombre de marca exitoso para lanzar productos nuevos o modificados en una categoría nueva.  
 
-            img.mt-5.img-a(src="@/assets/curso/img_22.png").img-fluid
+                    .row.mb-5
+                        .col-lg-6
+                            .card.h-100
+                                .card-body
+                                    .h5.card-title  Multimarcas
+                                    p   Las compañías a menudo introducen marcas adicionales en la misma categoría de productos. 
+
+                        .col-lg-6
+                            .card.h-100
+                                .card-body
+                                    .h5.card-title  Marcas nuevas
+                                    p   Una empresa podría considerar que el poder de su nombre de marca existente está disminuyendo, y que necesita un nuevo nombre de marca. O quizás una empresa idee un nuevo nombre de marca cuando ingresa a una nueva categoría de productos, donde ninguno de sus nombres de marca actuales es adecuado.
+
+
+            .row.justify-content-center.align-items-center
+                .col-lg-10
+                    table.table.table-nowrap.justify-content-center.text-center.mt-5
+                            thead
+                                tr
+                                    th(scope='col').color-table Categoria Marca
+                                    th(scope='col').color-table Existente 
+                                    th(scope='col').color-table Nuevos
+                                    
+                            tbody
+                                tr
+                                    td.color-table2 Existente
+                                    td.color-table2 Extensión de línea
+                                    td.color-table2 Extensión de marca
+
+                                tr
+                                    td.color-table3 Nuevos
+                                    td.color-table3 Multimarcas
+                                    td.color-table3 Marcas nuevas
+
+            .titulo-tercero.mt-5#tema1_3_1
+                h3 Personalidad de la marca
+            img.mt-5.img-a(src="@/assets/curso/img_22.png")
 
             p.mt-5 Las marcas exitosas y establecidas asumen una personalidad de marca, que es un conjunto de características humanas asociadas con un nombre de marca. Los estudios demuestran que los consumidores suelen asignar rasgos de personalidad a los productos: tradicionales, románticos, resistentes, sofisticados, rebeldes, y que eligen las marcas que concuerdan más con la imagen propia o deseada. Se da personalidad a una marca mediante la publicidad que representa a cierto usuario o situación de uso y que transmite ciertas emociones o sentimientos que se asociaran con la marca. E. Harley-Davidson tiene rasgos asociados con masculinidad, desafío e individualismo vigoroso (Kerin,2018).
 
 
-            .sub-ecored.mt-5#tema1_3_1
-                h3 1.3.1. Branding
+            .titulo-tercero.mt-5#tema1_3_1
+                h3 Branding
 
             img.mt-5.img-a(src="@/assets/curso/img_23.png").img-fluid
 
@@ -548,8 +529,8 @@
                     p Rowles (2014) define al e-branding como la personalidad de la organización, servicio o producto creado por la suma de todas experiencias que una persona tiene con la marca, incluyendo la interacción con las redes sociales y las evaluaciones críticas online del desempeño de una marca (online reviews). Es decir, en esencia la marca y sus indicadores como conocimiento de marca, posicionamiento, preferencia de marca, intención de compra, re-compra y recomendación de marca, permanecen intactas. Lo que cambia con el advenimiento de la era digital es la forma en que se construye marca. 
                     hr.border-color-primary.border-2
 
-            .sub-ecored.mt-5#tema1_3_2
-                h3 1.3.2. Posicionamiento
+            .titulo-tercero.mt-5#tema1_3_2
+                h3 Posicionamiento
             
             img.mt-5.img-a(src="@/assets/curso/img_27.png").img-fluid
 
@@ -636,83 +617,87 @@
 
             .row.justify-content-center.align-items-center.mt-5 
 
-                .col-12.col-md-5
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 El liderazgo
+                .col-lg-4.col-md-5
 
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 El liderazgo
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 El estilo de vida
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 El precio
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 Los atributos
+
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 La competencia
+
+                .col-lg-4.col-md-5
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 La ocasión de uso
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 Los usuarios
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 La calidad
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 La clase de producto
+                    .tarjeta.color-red.p-3.mb-5.r30.shadow-box
+                        .row.justify-content-around.align-items-center
+                            .col-2
+                                img(src="@/assets/curso/img_21.png")
+                            .col-10
+                                .h3.mb-1 Los usos del producto
+
+
+            .row.justify-content-center.mb-5
                 
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 El estilo de vida
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 El precio
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Los atributos
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 La competencia 
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 La ocasión de uso
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Los usuarios
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 La calidad
-
-                
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 La clase de producto
-
-            
-                    .row.justify-content-center.align-items-center.mt-5.card-text
-                        .col-auto 
-                            img.img-a(src="@/assets/curso/img_21.png").img-fluid  
-                        .col
-                            p.mt-3.py-3 Los usos del producto
-
-            .row.justify-content-center.align-items-center.mt-5
-                .col
-                    p Un ejemplo de excelente posicionamiento es Colombiana, la nuestra. La gaseosa de los colombianos.
-                .col-auto
-                    img(src="@/assets/curso/img_29.png", alt="").img-icon
-
-            .sub-ecored.mt-5#tema1_4
+                .col-lg-8
+                    
+                    .cajon.color-primario.p-4
+                        .row.align-items-center
+                            .col-lg-8
+                                p.mb-5.text-bold.p-3 Un ejemplo de excelente posicionamiento es Colombiana, la nuestra. La gaseosa de los colombianos.
+                            .col-lg-4
+                                img(src="@/assets/curso/t1-x1.png", alt="Envase de gaseosa Colombiana")
+            Separador
+            br
+            br
+            .titulo-segundo.mt-5#tema1_4
                 h2 1.4. Envase
 
             img.mt-5.img-a(src="@/assets/curso/img_30.png").img-fluid   
@@ -723,17 +708,13 @@
 
             h2.text-center.mt-5 Tipos de envases.
 
-            img.mt-5.img-a(src="@/assets/curso/img_31.png").img-fluid 
-                            
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Funciones del envase.]
+            img.mb-5.img-a(src="@/assets/curso/t1-i16.svg").img-fluid 
+
+            h3.titulo-tercero  Funciones del envase                   
 
             .row.justify-content-center.mt-5.my-5
                 .col-10.col-md-9
-                    ul.list-unstyled
+                    ul.list-unstyled.mb-5
                         li.justify-content-center.mt-5
                             i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                             | #[strong Contención:] El estado físico del producto (sólido, líquido y gaseoso) va a determinar por sí mismo el tipo de envase para su contenido. (Hernandez,2017)
@@ -758,15 +739,11 @@
                             i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                             | #[strong Comunicación:] El envase cumple dos funciones específicas: 
 
-            img.mt-5.img-a(src="@/assets/curso/img_32.png").img-fluid 
+                    img.mb-5(src="@/assets/curso/img_32.png")
 
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Condiciones del envase.]
+            h3.titulo-tercero   Condiciones del envase
 
-            .row.justify-content-center
+            .row.justify-content-center.mb-5
                 .col-10.col-md-9
                     ul.list-unstyled
                         li.justify-content-center.mt-5
@@ -791,9 +768,11 @@
                         li
                             p Cómodos en posteriores usos. No siempre se consume de una sola vez debe tener mecanismos de conservación y usarlo con facilidad.
 
-
-            .sub-ecored.mt-5#tema1_5
-                h2 1.5. Empaque.
+            Separador
+            br
+            br
+            .titulo-segundo.mt-5#tema1_5
+                h2 1.5. Empaque
 
             .row.justify-content-center.align-items-center.mt-5
                 .col
@@ -803,48 +782,29 @@
                 .col-auto
                     img(src="@/assets/curso/img_33.png", alt="").img-icon
 
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Beneficios del empaque.]
+            h3.titulo-tercero  Beneficios del empaque
 
-            #accordionExample.accordion
-                .card
-                    #headingOne.card-header
-                        h2.mb-0
-                            button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
-                                h2.mb-0.collapsable-title Beneficios de comunicación
-                    #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
-                        .card-body
-                            | Uno de los principales beneficios del empaque es la información que se transmite al consumidor mediante la etiqueta, como las instrucciones de uso del producto y su composición, las cuales son necesarias para satisfacer requisitos legales. Por ejemplo, el sistema de etiquetado de alimentos empacados y procesados proporciona un formato uniforme para información nutricional y dietética. (Kerin,2018) 
-                .card
-                    #headingTwo.card-header
-                        h2.mb-0
-                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
-                                h2.mb-0.collapsable-title Beneficios funcionales
-                    #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
-                        .card-body
-                            | Los empaques suelen desempeñar una importante función, como de almacenamiento, comodidad, protección y calidad del producto. Los envases para alimentos son un ejemplo, y las empresas de bebidas los han hecho más ligeros y fáciles de apilar en anaqueles y refrigeradores. (Kerin,2018)
-                .card
-                    #headingThree.card-header
-                        h2.mb-0
-                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
-                                h2.mb-0.collapsable-title Beneficios percibidos
-                    #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
-                        .card-body
-                            | La percepción que se crea en la mente de los consumidores. La forma del empaque, la etiqueta, el color y las imágenes distinguen a una marca de otra, comunican el posicionamiento de una marca y crean valor de marca, facilitando la formación de asociaciones de marca fuertes, favorables y únicas. (Kerin,2018) 
+            AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta color-secundario")
+                .row(titulo="Beneficios de comunicación").justify-content-center
+                    .col-lg-10
+                        p Uno de los principales beneficios del empaque es la información que se transmite al consumidor mediante la etiqueta, como las instrucciones de uso del producto y su composición, las cuales son necesarias para satisfacer requisitos legales. Por ejemplo, el sistema de etiquetado de alimentos empacados y procesados proporciona un formato uniforme para información nutricional y dietética. (Kerin,2018) 
 
-                .card
-                    #headingFour.card-header
-                        h2.mb-0
-                            button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
-                                h2.mb-0.collapsable-title Preocupación por el medio ambiente
-                    #collapseFour.collapse(aria-labelledby='headingFour', data-parent='#accordionExample')
-                        .card-body
-                            | Debido a la inquietud generalizada en todo el mundo por el aumento de los desechos sólidos y por el déficit de rellenos sanitarios adecuados, la cantidad, composición y eliminación de los materiales de empaquetado continúan recibiendo mucha atención con la finalidad de reducir los desechos sólidos. (Kerin,2018)
+                .row(titulo="Beneficios funcionales").justify-content-center
+                    .col-lg-10
+                        p Los empaques suelen desempeñar una importante función, como de almacenamiento, comodidad, protección y calidad del producto. Los envases para alimentos son un ejemplo, y las empresas de bebidas los han hecho más ligeros y fáciles de apilar en anaqueles y refrigeradores. (Kerin,2018)
 
-            .sub-ecored.mt-5#tema1_6
+                .row(titulo="Beneficios percibidos").justify-content-center
+                    .col-lg-10
+                        p La percepción que se crea en la mente de los consumidores. La forma del empaque, la etiqueta, el color y las imágenes distinguen a una marca de otra, comunican el posicionamiento de una marca y crean valor de marca, facilitando la formación de asociaciones de marca fuertes, favorables y únicas. (Kerin,2018) 
+                .row(titulo="Preocupación por el medio ambiente").justify-content-center
+                    .col-lg-10
+                        p Debido a la inquietud generalizada en todo el mundo por el aumento de los desechos sólidos y por el déficit de rellenos sanitarios adecuados, la cantidad, composición y eliminación de los materiales de empaquetado continúan recibiendo mucha atención con la finalidad de reducir los desechos sólidos. (Kerin,2018)
+
+
+            Separador
+            br
+            br
+            .titulo-segundo.mt-5#tema1_6
                 h2 1.6. Embalaje.
 
             .row.justify-content-center.align-items-center.mt-5
@@ -891,10 +851,12 @@
                             i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                             | #[strong Metales.] La hoja de lata es mayormente utilizada para la conservación de alimentos, así como para el envasado de pinturas, solventes y productos químicos, mientras que el aluminio lo es para los refrescos.
 
-            .embed-responsive.embed-responsive-16by9
+            .embed-responsive.embed-responsive-16by9.mb-5
                   iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/bv8zTM9mZZ8', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
-
-            .sub-ecored.mt-5#tema1_7 
+            Separador
+            br
+            br
+            .titulo-segundo.mt-5#tema1_7 
                 h2 1.7. Etiqueta
 
             img.mt-5.img-a(src="@/assets/curso/img_35.png").img-fluid 
@@ -1031,7 +993,7 @@
                         p.header-step.flex-column.justify-content-center.align-items-center
                             p Deben contener todos los elementos descritos para evitar aspectos dudosos para el consumidor.
 
-            .sub-ecored.mt-5#tema1_7_1 
+            .titulo-tercero.mt-5#tema1_7_1 
                 h3 1.7.1. Códigos barras
 
             img.img-a(src="@/assets/curso/img_42.png").img-fluid 
@@ -1052,8 +1014,8 @@
                         .col
                             p Código QR (Quick Response), o código 2D (Dos dimensiones). Creado en 1994 por una subsidiaria de Toyota. Almacena datos hasta de 7.000 caracteres. De común aplicación industrial en Japón y muy utilizado hoy en publicidad, luego de que a los teléfonos móviles se les incluyó software para leerlo. Es un código libre de derechos de patente. (Vélez,2014)
 
-            .sub-ecored.mt-5#tema1_7_2 
-                h3 1.7.2. Etiqueta RFID    
+            .titulo-tercero.mt-5#tema1_7_2 
+                h3 Etiqueta RFID    
 
             img.img-a(src="@/assets/curso/img_45.png").img-fluid 
 
@@ -1096,15 +1058,17 @@
 
             p El sistema opera mediante una tarjeta o tag, que contiene un chip con una memoria interna, variable hasta millares de bytes, según el modelo y una antena transmisora, adherida al ítem, que puede ser objeto, animal o aún, persona y que, mediante ondas de radio, entrega los datos de un código a un lector RFID que los capta y puede transmitirlos a un sistema de computación, para ser procesados. Indiscutiblemente el código de barras será sustituido rápidamente por aplicaciones y utilizaciones prácticas y rutinarias del sistema RFID (Vélez, 2014).
 
-
-            .sub-ecored.mt-5#tema1_8 
+            Separador
+            br
+            br
+            .titulo-segundo.mt-5#tema1_8 
                 h2 1.8. Marketing Green
 
             img.img-a(src="@/assets/curso/img_47.png").img-fluid 
 
             p.mt-5 Kotler (2017), determina que tanto los consumidores como las empresas están cambiando su perspectiva sobre los problemas ambientales y da las siguientes perspectivas:
 
-            .row.justify-content-center.mt-5.my-5
+            .row.justify-content-center.mt-5.my-5.mb-5
                     .col-10.col-md-9
                         ul.list-unstyled
                             li.justify-content-center.mt-5
@@ -1114,8 +1078,10 @@
                             li.justify-content-center.mt-5
                                 i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                                 | Perspectiva de las empresas: generalmente, los productos verdes han destacado sus beneficios naturales, en este momento cobra importancia y popularidad los beneficios ambientales ya que los consumidores también se han vuelto escépticos acerca de discursos ecológicos difíciles de comprobar.
-
-            .sub-ecored.mt-5#tema1_9 
+            Separador
+            br
+            br
+            .titulo-segundo.mt-5#tema1_9 
                 h2 1.9. Marketing Social
 
             img.img-a(src="@/assets/curso/img_48.png").img-fluid 
@@ -1129,49 +1095,67 @@
             p Según Stanton, (2007) la responsabilidad social de una empresa se extiende las dimensiones de amplitud y compromiso de sus metas de marketing lo suficiente para cumplir su responsabilidad social, pone en práctica lo que se conoce como el concepto de marketing social.
 
             .row.justify-content-center.mt-5.my-5
-                    .col-10.col-md-9
-                        ul.list-unstyled
-                            li.justify-content-center.mt-5
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | Amplitud del marketing, una empresa reconoce que su mercado abarca no sólo a los compradores de sus productos, sino también a cualquier afectado directamente por sus operaciones. Ejemplo los detallistas de la moda internacional con la disponibilidad de empleos en economías del tercer mundo. 
+                .col-lg-3
+                    figure
+                        img.img-a(src="@/assets/curso/t1-i28.svg")
+                .col-lg-8
+                    ul.lista-ul
+                        li
+                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                            | Amplitud del marketing, una empresa reconoce que su mercado abarca no sólo a los compradores de sus productos, sino también a cualquier afectado directamente por sus operaciones. Ejemplo los detallistas de la moda internacional con la disponibilidad de empleos en economías del tercer mundo. 
 
-                            li.justify-content-center.mt-5
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | Extender la dimensión del compromiso de sus metas de marketing, significa que una empresa debe reconocer que atender las necesidades más amplias de la sociedad para satisfacer las necesidades sociales de sus clientes al igual que las económicas.
+                        li
+                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                            | Extender la dimensión del compromiso de sus metas de marketing, significa que una empresa debe reconocer que atender las necesidades más amplias de la sociedad para satisfacer las necesidades sociales de sus clientes al igual que las económicas.
 
-            p El marketing social consiste en motivar comportamientos que generen bienestar individual y social. Los programas de marketing social abarcan un amplio rango de asuntos. Se desarrollan campañas de propaganda social que hablan de asuntos como salud preventiva, educación, sustentabilidad ambiental, derechos humanos y seguridad personal. En todo caso, el marketing social implica mucho más que difundir campañas de información; implica una amplia variedad de estrategias y herramientas de mezcla de marketing diseñadas para motivar cambios sociales benéficos (Kotler,2017).
-
-            .sub-ecored.mt-5#tema1_10 
+            p.mb-5 El marketing social consiste en motivar comportamientos que generen bienestar individual y social. Los programas de marketing social abarcan un amplio rango de asuntos. Se desarrollan campañas de propaganda social que hablan de asuntos como salud preventiva, educación, sustentabilidad ambiental, derechos humanos y seguridad personal. En todo caso, el marketing social implica mucho más que difundir campañas de información; implica una amplia variedad de estrategias y herramientas de mezcla de marketing diseñadas para motivar cambios sociales benéficos (Kotler,2017).
+            Separador
+            br
+            br
+            .titulo-segundo#tema1_10 
                 h2 1.10. Normativa
+            .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+                .row.m-0.align-items-center.justify-content-between
+                    .col-lg-4.mb-4.mb-lg-0
+                        figure
+                            img(src="@/assets/curso/img_49.png")
+                    .col-lg-8
+                        .bloque-texto-a__texto.p-5
+                            p Los productos y las marcas hoy en día son el mayor activo de las empresas. Por tanto, es necesario que se asegure que tengan la debida protección legal, tanto a nivel nacional como internacional y se garantice la sostenibilidad de las empresas, puesto que estas sin marcas no podrían existir. (Hoyos,2016)
+             
 
-            img.img-a(src="@/assets/curso/img_49.png").img-fluid 
+            .row.mb-5.justify-content-center
+                .col-lg-4.align-items-center.p-4
+                    img(src="@/assets/curso/img_50.png")
+                .col-lg-6
+                    p En Colombia la protección industrial se da a través de la Superintendencia de industria y comercio SIC https://www.sic.gov.co/propiedad-Industrial es la autoridad nacional de protección de la competencia, los datos personales y la metrología legal, protege los derechos de los consumidores y administra el Sistema Nacional de Propiedad Industrial, a través del ejercicio de sus funciones administrativas y jurisdiccionales. Se pueden proteger las marcas y signos distintivos, patentes y nuevas creaciones y los servicios de seguimiento a nuevas tecnologías. 
+            
 
-            p.mt-5 Los productos y las marcas hoy en día son el mayor activo de las empresas. Por tanto, es necesario que se asegure que tengan la debida protección legal, tanto a nivel nacional como internacional y se garantice la sostenibilidad de las empresas, puesto que estas sin marcas no podrían existir. (Hoyos,2016)
-
-            img.img-a(src="@/assets/curso/img_50.png").img-fluid 
-
-            p.mt-5 En Colombia la protección industrial se da a través de la Superintendencia de industria y comercio SIC https://www.sic.gov.co/propiedad-Industrial es la autoridad nacional de protección de la competencia, los datos personales y la metrología legal, protege los derechos de los consumidores y administra el Sistema Nacional de Propiedad Industrial, a través del ejercicio de sus funciones administrativas y jurisdiccionales. Se pueden proteger las marcas y signos distintivos, patentes y nuevas creaciones y los servicios de seguimiento a nuevas tecnologías. 
 
             p Para la protección de los derechos de autor esta la dirección nacional de derechos de autor http://derechodeautor.gov.co/ Ente institucional para fortalecer la debida y adecuada protección de los diversos titulares del derecho de autor y los derechos conexos, contribuyendo a la formación, desarrollo y sustentación de una cultura nacional de respeto por los derechos de los diversos autores y titulares de las obras literarias y artísticas.
-
-            img.img-a(src="@/assets/curso/img_51.png").img-fluid
+            .row.justify-content-center
+                .col-lg-7
+                    img(src="@/assets/curso/img_51.png")
 
             p.mt-5 Para que una marca pueda ser registrada debe cumplir con tres condiciones principalmente: distintividad, perceptibilidad y susceptibilidad de representación gráfica (Godoy, 2006).
 
-            .row.justify-content-center.mt-5.my-5
-                    .col-10.col-md-9
-                        ul.list-unstyled
-                            li.justify-content-center.mt-5
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | La distintividad, se refiere a que la marca debe ser diferente en todo aspecto de las marcas con las cuales compite en un mercado; la diferenciación debe ser visual, ortográfica, fonética y conceptual. (Hoyos,2016)
+            .row.justify-content-center.mt-5.my-5.align-items-center
+                .col-lg-3
+                    figure
+                        img(src="@/assets/curso/t1-i31.svg")
+                .col-lg-8
+                    ul.list-unstyled.p-4
+                        li.justify-content-center
+                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                            | La distintividad, se refiere a que la marca debe ser diferente en todo aspecto de las marcas con las cuales compite en un mercado; la diferenciación debe ser visual, ortográfica, fonética y conceptual. (Hoyos,2016)
 
-                            li.justify-content-center.mt-5
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | La perceptibilidad, se define como “la cualidad que tiene un símbolo de expresarse y materializarse para ser aprehendido por los consumidores o usuarios a través de los sentidos y asimilado por la inteligencia” (Godoy, 2006).
+                        li.justify-content-center.mt-5
+                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                            | La perceptibilidad, se define como “la cualidad que tiene un símbolo de expresarse y materializarse para ser aprehendido por los consumidores o usuarios a través de los sentidos y asimilado por la inteligencia” (Godoy, 2006).
 
-                            li.justify-content-center.mt-5
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | La representatividad gráfica, se refiere a que la marca debe ser susceptible de ser registrada con una palabra, una imagen, un símbolo o elementos análogos. Para el caso de las marcas acústicas, se da a través de un pentagrama correspondiente a la marca y, en el caso de las marcas olfativas, se da a través de la fórmula química que representa el olor marcario. (Hoyos,2016)
+                        li.justify-content-center.mt-5
+                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                            | La representatividad gráfica, se refiere a que la marca debe ser susceptible de ser registrada con una palabra, una imagen, un símbolo o elementos análogos. Para el caso de las marcas acústicas, se da a través de un pentagrama correspondiente a la marca y, en el caso de las marcas olfativas, se da a través de la fórmula química que representa el olor marcario. (Hoyos,2016)
 
 
 

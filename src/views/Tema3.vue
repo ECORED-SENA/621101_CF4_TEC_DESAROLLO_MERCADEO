@@ -289,22 +289,23 @@
             .row.justify-content-center
                 
                 .col-lg-10
+                    
                     .tarjeta-avatar-b.mb-5.align-items-center
-                        img.h100(src='@/assets/curso/img_12.png' alt='AvatarTop')
+                        img(src='@/assets/curso/img_12.png' alt='AvatarTop')
                         .tarjeta.tarjeta--gris
                             .p-4
                                 .h4 Producto básico:
                                 p por lo general, los servicios se definen con respecto a una industria en particular —por ejemplo, del cuidado de la salud o del transporte— a partir del conjunto básico de beneficios y soluciones que se entregan a los clientes. Así pues, el transporte resuelve la necesidad de trasladar a un individuo o un objeto físico de un lugar a otro. Ej. Servicio de Hotelería (Lovelock,2015)
 
                     .tarjeta-avatar-b.mb-5.align-items-center
-                        img.h100(src='@/assets/curso/img_13.png' alt='AvatarTop')
+                        img(src='@/assets/curso/img_13.png' alt='AvatarTop')
                         .tarjeta.tarjeta--gris
                             .p-4
                                 .h4 Servicios complementarios:
                                 p la entrega del producto básico suele ir acompañada de una variedad de otras actividades relacionadas con el servicio, a las que denominamos servicios complementarios, los cuales facilitan el uso del producto básico y agregan valor y atractivo a la experiencia general del cliente. Cuando se agreguen elementos complementarios o se incremente su nivel de desempeño, esto debe hacerse de forma que aumenten el valor percibido del producto básico y que permitan al proveedor del servicio cobrar un precio más alto. Ej. En el Servicio de Hotelería los complementarios de servicio de habitación, restaurante, estacionamiento, zonas húmedas, entre otros. (Lovelock,2015)
 
                     .tarjeta-avatar-b.mb-5.align-items-center
-                        img.h100(src='@/assets/curso/img_14.png' alt='AvatarTop')
+                        img(src='@/assets/curso/img_14.png' alt='AvatarTop')
                         .tarjeta.tarjeta--gris
                             .p-4
                                 .h4 Procesos de entrega:
