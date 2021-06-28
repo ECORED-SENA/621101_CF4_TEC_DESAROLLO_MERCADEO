@@ -773,14 +773,17 @@
             br
             .titulo-segundo.mt-5#tema1_5
                 h2 1.5. Empaque
+            .row.justify-content-center
+                .col-lg-10
+                    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.bg-image-cover2 
+                        .row.m-0.align-items-center.justify-content-between
+                            .col-lg-4.mb-4.mb-lg-0
+                                h2.mb-0 
+                            .col-lg-8
+                                .bloque-texto-a__texto.p-4.shadow-box
+                                    p.mb-3 El empaque de un producto es cualquier contenedor en el que se ofrece para su venta y que incluye una etiqueta con información relevante para el consumidor (Kerin,2018).
 
-            .row.justify-content-center.align-items-center.mt-5
-                .col
-                    p El empaque de un producto es cualquier contenedor en el que se ofrece para su venta y que incluye una etiqueta con información relevante para el consumidor (Kerin,2018).
-
-                    p El empaquetado de un producto también conocido como packaging tiene como objetivo fundamental atraer la atención del cliente. La presentación de un producto puede determinar que este sea un éxito o un fracaso. En ocasiones ayuda a facilitar el reconocimiento de las marcas. El packaging contiene, protege, conserva, transporta, informa y vende (Martinez,2014).
-                .col-auto
-                    img(src="@/assets/curso/img_33.png", alt="").img-icon
+                                    p El empaquetado de un producto también conocido como packaging tiene como objetivo fundamental atraer la atención del cliente. La presentación de un producto puede determinar que este sea un éxito o un fracaso. En ocasiones ayuda a facilitar el reconocimiento de las marcas. El packaging contiene, protege, conserva, transporta, informa y vende (Martinez,2014).
 
             h3.titulo-tercero  Beneficios del empaque
 
@@ -805,54 +808,87 @@
             br
             br
             .titulo-segundo.mt-5#tema1_6
-                h2 1.6. Embalaje.
+                h2 1.6. Embalaje
+            .row.justify-content-center
+                .col-lg-12
+                    .bloque-texto-a.p-4.p-md-5.mb-5.color-neutro 
+                        .row.m-0.align-items-center.justify-content-between
+                            .col-lg-8
+                                .bloque-texto-a__texto.p-4.shadow-box
+                                    p.mb-3 Hernández (2017) Define el embalaje como un contenedor colectivo, que agrupa varios envases primarios y secundarios (empaques), con la finalidad de unificarlos, protegerlos, facilitar su manejo, almacenamiento, transporte y distribución. También se le conoce como el “envase de distribución”. Las dos principales funciones del embalaje son unificar y proteger la mercancía durante su distribución.
+
+                            .col-lg-4.mb-4.mb-lg-0
+                                figure
+                                    img(src="@/assets/curso/img_34.png", alt="")
+
 
             .row.justify-content-center.align-items-center.mt-5
-                .col
-                    p Hernández (2017) Define el embalaje como un contenedor colectivo, que agrupa varios envases primarios y secundarios (empaques), con la finalidad de unificarlos, protegerlos, facilitar su manejo, almacenamiento, transporte y distribución. También se le conoce como el “envase de distribución”. Las dos principales funciones del embalaje son unificar y proteger la mercancía durante su distribución.
-                .col-auto
-                    img(src="@/assets/curso/img_34.png", alt="").img-icon
+                .col-lg-12.mb-5
+                    .card.r30.p-3.tarjeta--gris
+                        .card-body
+                            .h3 Función de unificación
+                            p.mb-3  Los productos de consumo no se pueden comercializar a granel en los sistemas de distribución masiva. No es posible distribuir ningún producto si no está debidamente embalado. Las cargas formadas por productos embalados colectivamente llegan a ser homogéneas o heterogéneas. Cuando la carga es homogénea no es difícil resolver su acomodo, pero cuando es heterogénea (con pesos, dimensiones y materiales distintos), surge el problema de su acomodo, por la posibilidad de caídas y daños.
+                .col-lg-12
+                    .card.r30.p-3.tarjeta--gris
+                        .card-body
+                            .h3 Función de protección
+                            p.mb-3  La protección que da el embalaje al producto es de vital importancia para llevar a efecto su distribución masiva. Los materiales del envase y el embalaje que se utilizan comúnmente son:
+                            .row.mb-5
+                                .col-lg-4
+                                    .tarjeta--boton.color-primario.p-4
+                                        .row.justify-content-center.mb-3
+                                            .col-7
+                                                figure
+                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                        h4.text-center Papel
+                                        p.text-small Es uno de los materiales más utilizados para el envase y puede combinarse con el aluminio y las películas plásticas. Su función principal es evitar fricciones entre las piezas, así como proporcionar una envoltura desechable que evite las raspaduras y la vibración. El papel no resiste la humedad ni las grasas.
+                                .col-lg-4
+                                    .tarjeta--boton.color-primario.p-4
+                                        .row.justify-content-center.mb-3
+                                            .col-7
+                                                figure
+                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                        h4.text-center Cartón
+                                        p.text-small Se utiliza más como amortiguador que como envase. Como embalaje es posible darle propiedades impermeables aplicando películas de parafina o polietileno.
 
-            p.header-step
-                        span.header-step-number.text-color-orange a
-                        span.header-step-title
-                            | #[strong Función de unificación.] Los productos de consumo no se pueden comercializar a granel en los sistemas de distribución masiva. No es posible distribuir ningún producto si no está debidamente embalado. Las cargas formadas por productos embalados colectivamente llegan a ser homogéneas o heterogéneas. Cuando la carga es homogénea no es difícil resolver su acomodo, pero cuando es heterogénea (con pesos, dimensiones y materiales distintos), surge el problema de su acomodo, por la posibilidad de caídas y daños.
+                                .col-lg-4
+                                    .tarjeta--boton.color-primario.p-4
+                                        .row.justify-content-center.mb-3
+                                            .col-7
+                                                figure
+                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                        h4.text-center Madera
+                                        p.text-small Se emplea para la fabricación de tarimas, cajas, rejas o jaulas y carretes. Usualmente se utiliza la madera de pino por resistente y barata.
+                            .row.mb-5
+                                .col-lg-4
+                                    .tarjeta--boton.color-primario.p-4
+                                        .row.justify-content-center.mb-3
+                                            .col-7
+                                                figure
+                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                        h4.text-center Plásticos
+                                        p.text-small Sirve para fabricar envases y embalajes de alta productividad; sin embargo, el plástico no es biodegradable por lo que representa problemas ecológicos graves a futuro. Este tipo de envases se deben reciclar.
+                                .col-lg-4
+                                    .tarjeta--boton.color-primario.p-4
+                                        .row.justify-content-center.mb-3
+                                            .col-7
+                                                figure
+                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                        h4.text-center Vidrio
+                                        p.text-small Es el material tradicional para el envase de alimentos, vinos, algunos fármacos y cosméticos. Algunas de sus características son su estabilidad química, que son 100% impermeables, la esterilización, refractabilidad, retornabilidad y la presentación de calidad.
 
-            p.header-step
-                span.header-step-number.text-color-orange b
-                span.header-step-title
-                    | #[strong Función de protección.] La protección que da el embalaje al producto es de vital importancia para llevar a efecto su distribución masiva. Los materiales del envase y el embalaje que se utilizan comúnmente son:
-
-            .row.justify-content-center
-                .col-10.col-md-9
-                    ul.list-unstyled
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Papel.] Es uno de los materiales más utilizados para el envase y puede combinarse con el aluminio y las películas plásticas. Su función principal es evitar fricciones entre las piezas, así como proporcionar una envoltura desechable que evite las raspaduras y la vibración. El papel no resiste la humedad ni las grasas.
+                                .col-lg-4
+                                    .tarjeta--boton.color-primario.p-4
+                                        .row.justify-content-center.mb-3
+                                            .col-7
+                                                figure
+                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                        h4.text-center Metales
+                                        p.text-small La hoja de lata es mayormente utilizada para la conservación de alimentos, así como para el envasado de pinturas, solventes y productos químicos, mientras que el aluminio lo es para los refrescos.
 
 
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Cartón.] Se utiliza más como amortiguador que como envase. Como embalaje es posible darle propiedades impermeables aplicando películas de parafina o polietileno.
-
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Madera.] Se emplea para la fabricación de tarimas, cajas, rejas o jaulas y carretes. Usualmente se utiliza la madera de pino por resistente y barata.
-
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Plásticos.] Sirve para fabricar envases y embalajes de alta productividad; sin embargo, el plástico no es biodegradable por lo que representa problemas ecológicos graves a futuro. Este tipo de envases se deben reciclar.
-
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Vidrio.] Es el material tradicional para el envase de alimentos, vinos, algunos fármacos y cosméticos. Algunas de sus características son su estabilidad química, que son 100% impermeables, la esterilización, refractabilidad, retornabilidad y la presentación de calidad.
-
-                        li.justify-content-center.mt-5
-                            i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                            | #[strong Metales.] La hoja de lata es mayormente utilizada para la conservación de alimentos, así como para el envasado de pinturas, solventes y productos químicos, mientras que el aluminio lo es para los refrescos.
-
-            .embed-responsive.embed-responsive-16by9.mb-5
-                  iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/bv8zTM9mZZ8', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+                            .embed-responsive.embed-responsive-16by9.mb-5
+                                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/bv8zTM9mZZ8', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
             Separador
             br
             br
@@ -863,15 +899,11 @@
 
             p.mt-5 Una etiqueta es una parte integral del empaque, la cual identifica el producto o marca, quién, dónde y cuándo lo hizo, cómo debe usarse, cuál es su contenido y sus ingredientes (Kerin,2018).
 
-            p Hernández (2017), explica la etiqueta como “la parte del producto que contiene la información escrita sobre el artículo. Una etiqueta puede ser parte del embalaje o simplemente una hoja adherida directamente al producto. La etiqueta se utiliza para facilitar la identificación de un producto al presentar la marca y un diseño gráfico único”. A continuación, describe los objetivos, elementos y características que deben tener las etiquetas. 
+            p.mb-5 Hernández (2017), explica la etiqueta como “la parte del producto que contiene la información escrita sobre el artículo. Una etiqueta puede ser parte del embalaje o simplemente una hoja adherida directamente al producto. La etiqueta se utiliza para facilitar la identificación de un producto al presentar la marca y un diseño gráfico único”. A continuación, describe los objetivos, elementos y características que deben tener las etiquetas. 
+            
+            h3.titulo-tercero   Objetivos de las etiquetas
 
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Objetivos de las etiquetas.]
-
-            .row.justify-content-center
+            .row.justify-content-center.mb-5
                 .col-10.col-md-9
                     ul.list-unstyled
                         li.justify-content-center.mt-5
@@ -883,15 +915,11 @@
                             i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
                             | Proporcionar información sobre el producto para que tanto el vendedor como el consumidor conozcan las características, formas de consumo, beneficios esperados, entre otros.
 
-            .row.mt-5
-                .col-1.col-md-1.flecha
-                    img(src="@/assets/curso/img_6.png").img-icon
-                .col-9.col-md-9
-                    p #[strong Elementos que debe considerar la etiqueta:]
+            h3.titulo-tercero   Elementos que debe considerar la etiqueta
 
             img.img-a(src="@/assets/curso/img_36.png").img-fluid 
 
-            .row.justify-content-center.align-items-center 
+            .row.justify-content-center.align-items-center.mb-5
 
                 .col-12.col-md-4.my-6
                     .row
@@ -958,40 +986,38 @@
                         .col-9.col-md-9
                             p #[strong Instrucciones de uso o avisos de advertencia, como los que aparecen en los cigarros.]
 
-            .row.justify-content-center.mt-5.no-margin
+            .row.justify-content-center.mb-5.no-margin
+                .col-lg-3
+                    .tarjeta--boton.color-primario.p-4
+                        .row.justify-content-center.mb-3
+                            .col-7
+                                figure
+                                    img(src='@/assets/curso/img_38.png', alt='Texto que describa la imagen')
+                        p.text-small Deben ser adaptables al envase en tamaño, color, forma, material, etcétera.
+                .col-lg-3
+                    .tarjeta--boton.color-primario.p-4.h-100
+                        .row.justify-content-center.mb-3
+                            .col-7
+                                figure
+                                    img(src='@/assets/curso/img_39.png', alt='Texto que describa la imagen')
+                        p.text-small El material deberá ser resistente para que perdure desde la salida del producto del almacén hasta llegar a manos del consumidor final.
 
-                .col-12.col-md-3.my-6.mt-5-md-0 
-                    .card
-                        .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="@/assets/curso/img_38.png").avatar-img
+                .col-lg-3
+                    .tarjeta--boton.color-primario.p-4
+                        .row.justify-content-center.mb-3
+                            .col-7
+                                figure
+                                    img(src='@/assets/curso/img_40.png', alt='Texto que describa la imagen')
+                        p.text-small Tienen que estar perfectamente adheridas para evitar su desprendimiento o que se pueda confundir con algún otro artículo.
+                .col-lg-3
+                    .tarjeta--boton.color-primario.p-4
+                        .row.justify-content-center.mb-3
+                            .col-7
+                                figure
+                                    img(src='@/assets/curso/img_41.png', alt='Texto que describa la imagen')
+                        p.text-small Deben contener todos los elementos descritos para evitar aspectos dudosos para el consumidor.
 
-                        p.header-step.flex-column.justify-content-center.align-items-center
-                            p Deben ser adaptables al envase en tamaño, color, forma, material, etcétera.
 
-
-                .col-12.col-md-3.my-6.mt-5-md-0
-                    .card 
-                        .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="@/assets/curso/img_39.png").avatar-img
-
-                        p.header-step.flex-column.justify-content-center.align-items-center
-                            p El material deberá ser resistente para que perdure desde la salida del producto del almacén hasta llegar a manos del consumidor final. 
-
-                .col-12.col-md-3.my-6.mt-5-md-0
-                    .card 
-                        .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="@/assets/curso/img_40.png").avatar-img
-
-                        p.header-step.flex-column.justify-content-center.align-items-center
-                            p Tienen que estar perfectamente adheridas para evitar su desprendimiento o que se pueda confundir con algún otro artículo.
-
-                .col-12.col-md-3.my-6.mt-5-md-0
-                    .card 
-                        .avatar.avatar-xxl.card-avatar.card-avatar-top
-                            img(src="@/assets/curso/img_41.png").avatar-img
-
-                        p.header-step.flex-column.justify-content-center.align-items-center
-                            p Deben contener todos los elementos descritos para evitar aspectos dudosos para el consumidor.
 
             .titulo-tercero.mt-5#tema1_7_1 
                 h3 1.7.1. Códigos barras
