@@ -281,6 +281,7 @@ export default {
       {
         nombre: 'Ingry Dayanna Bonilla Monzon',
         cargo: 'Líder del equipo',
+        centro: '',
       },
     ],
     contenidoInstruccional: [
