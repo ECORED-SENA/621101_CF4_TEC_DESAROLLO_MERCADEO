@@ -826,6 +826,7 @@ div
     li 
       i.lista-ul__vineta
       | No se debe utilizar dentro del acordeón vídeos.
+  
 
   AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
     .row(titulo="Titulo item 1")

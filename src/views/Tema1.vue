@@ -20,21 +20,21 @@
           | es el que por lo general se utiliza muchas veces, como los electrodomésticos, automóviles y teléfonos móviles. 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta-avatar-b.mb-5.align-items-center
+        .tarjeta-avatar-b.tarjeta--gris.mb-5.align-items-center.r30
           img.h90(src='@/assets/curso/t1-i2.svg' alt='AvatarTop')
           .tarjeta.borde-y
             .p-4
               .h3 Un producto único:
               p Es un producto específico que tiene una marca, un tamaño o precio único. 
                 span.text-bold  Ejemplo: suavizante para ropa Ultra Downy.
-        .tarjeta-avatar-b.mb-5.align-items-center
+        .tarjeta-avatar-b.mb-5.tarjeta--gris.mb-5.align-items-center.r30
           img.h90(src='@/assets/curso/t1-i3.svg' alt='AvatarTop')
           .tarjeta.borde-y
             .p-4
               .h3 Una línea de productos
               p Es un grupo de artículos de productos o servicios que están estrechamente relacionados porque satisfacen un tipo de necesidades, se usan juntos, se venden al mismo grupo de consumidores, se distribuyen en los mismos mercados o están dentro de un mismo rango de precios. 
                 span.text-bold  Ej. Las líneas de productos de Nike consisten en ropa y zapatos tenis.
-        .tarjeta-avatar-b.mb-5.align-items-center
+        .tarjeta-avatar-b.mb-5.tarjeta--gris.mb-5.align-items-center.r30
           img.h90(src='@/assets/curso/t1-i4.svg' alt='AvatarTop')
           .tarjeta.borde-y
             .p-4
@@ -46,51 +46,52 @@
       img(src='@/assets/curso/t1-i5.svg', alt='infografia de proceso')
     br
     br
-    #t1-1.titulo-segundo
+    #t_1_1.titulo-segundo
       h2 1.1 Producto
     .row.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.bg-image-cover
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0.bg-image-cover
+            .col-lg-4.mb-4.mb-lg-0
               h2.mb-0 
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p Kotler (2017), define un producto como cualquier bien que se pueda ofrecer a un mercado para su atención, adquisición, uso o consumo, y que podría satisfacer un deseo o una necesidad.
 
     .row.justify-content-center.mb-5
-      .col-lg-6
-        table.table.table-nowrap.justify-content-center.text-center.mt-5
-          thead
-            tr
-              th(scope='col').color-table Necesidad
-              th(scope='col').color-table Satisfactor
-                        
-          tbody
-            tr
-              td.color-table2 Identificación
-              td.color-table2 Caracteriza al producto desde el punto de vista de la configuración de sus atributos.
+      .col-lg-10
+        .tabla-c.color-acento-contenido.mb-5 
+            table.table
+                thead.color-primario
+                    tr
+                    th(scope='col').color-table Necesidad
+                    th(scope='col').color-table Satisfactor
+                                
+                tbody
+                    tr
+                    td.color-table2 Identificación
+                    td.color-table2 Caracteriza al producto desde el punto de vista de la configuración de sus atributos.
 
-            tr
-              td.color-table3 Referencia
-              td.color-table3 Reduce a subconjuntos el universo total de productos que se ofrecen.
+                    tr
+                    td.color-table3 Referencia
+                    td.color-table3 Reduce a subconjuntos el universo total de productos que se ofrecen.
 
-            tr
-              td.color-table2 Garantía 
-              td.color-table2 Se entiende como un compromiso de calidad y de rendimiento por parte del fabricante.
+                    tr
+                    td.color-table2 Garantía 
+                    td.color-table2 Se entiende como un compromiso de calidad y de rendimiento por parte del fabricante.
 
-            tr
-              td.color-table3 Personalización 
-              td.color-table3 El usuario se puede sentir integrado a un grupo social (o diferenciado de él).
+                    tr
+                    td.color-table3 Personalización 
+                    td.color-table3 El usuario se puede sentir integrado a un grupo social (o diferenciado de él).
 
-            tr
-              td.color-table3 Lúdica 
-              td.color-table3 El usuario siente placer al comprar el producto.
+                    tr
+                    td.color-table3 Lúdica 
+                    td.color-table3 El usuario siente placer al comprar el producto.
 
-            tr
-              td.color-table2 Practicidad 
-              td.color-table2 Permite a las personas memorizar experiencias de consumo.
-        caption Fuente: (Hernández,2017)
+                    tr
+                    td.color-table2 Practicidad 
+                    td.color-table2 Permite a las personas memorizar experiencias de consumo.
+            figcaption Fuente: (Hernández,2017)
 
     h3.titulo-tercero Clasificación de los productos
     .tarjeta.color-primario.p-3.mb-5
@@ -103,7 +104,7 @@
               h3.mb-1 Clasificación de los productos.
               p.text-small En la siguiente presentación se describe la clasificación de los productos, por ello, se invita que lo consulte. 
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/clasificacion_productos.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -140,7 +141,7 @@
         figure
           img(src="@/assets/curso/t1-i9.svg")
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta-numerada.color-primario.px-5.py-4.mb-3.borde-y
           .tarjeta-numerada__numero
@@ -168,57 +169,58 @@
             .h2 5
           p Decadencia: es el periodo en el que tanto las ventas como las utilidades disminuyen. (Kotler,2017) Con frecuencia, un producto entra en esta etapa no por una estrategia equivocada por parte de la empresa, sino por cambios en el entorno. Una empresa seguirá una de dos estrategias para manejar un producto en decadencia: la eliminación o su drástica desaparición de la línea de productos y la cosecha que consiste en que el producto sigue ofreciéndose, aunque los vendedores no asignan tiempo para venderlo ni se realizan gastos de publicidad. (Kerin,2018)
 
-    p A continuación, Hernández (2017) realiza un cuadro sobre las características e implicaciones de cada etapa del ciclo de vida del producto.
+    p.mb-5 A continuación, Hernández (2017) realiza un cuadro sobre las características e implicaciones de cada etapa del ciclo de vida del producto.
       .row.justify-content-center
         .col-lg-8
-          table.table.table-nowrap.justify-content-center.text-center.mt-5
-            thead
-              tr
-                td
-                td(colspan="4").color-table.text-center #[strong Etapa]
+            .tabla-c.color-acento-contenido.mb-5 
+                table.table
+                    thead.color-primario
+                        tr
+                            td
+                            td(colspan="4").color-table.text-center #[strong Etapa]
                             
-            tbody
-              tr
-                td 
-                td.color-table_3 Introducción
-                td.color-table_3 Crecimiento
-                td.color-table_3 Madurez
-                td.color-table_3 Declive
+                    tbody
+                        tr.subhead
+                            td 
+                            td Introducción
+                            td Crecimiento
+                            td Madurez
+                            td Declive
 
-              tr
-                td.color-table2 Clientes
-                td.color-table2 Innovadores
-                td.color-table2 Mercado masivo
-                td.color-table2 intensa
-                td.color-table2 Leales
-                           
+                        tr
+                            td.text-bold Clientes
+                            td.color-table2 Innovadores
+                            td.color-table2 Mercado masivo
+                            td.color-table2 intensa
+                            td.color-table2 Leales
+                                    
 
-              tr
-                td.color-table3 Competencia
-                td.color-table3 Competencia Poca o nula
-                td.color-table3 Creciente
-                td.color-table3 Intensa
-                td.color-table3 Decreciente
+                        tr
+                            td.text-bold Competencia
+                            td.color-table3 Competencia Poca o nula
+                            td.color-table3 Creciente
+                            td.color-table3 Intensa
+                            td.color-table3 Decreciente
 
-              tr
-                td.color-table2 Ventas
-                td.color-table2 Niveles bajos que después crecen
-                td.color-table2 Crecimiento rápido
-                td.color-table2 Crecimiento lento
-                td.color-table2 Decreciente
+                        tr
+                            td.text-bold Ventas
+                            td.color-table2 Niveles bajos que después crecen
+                            td.color-table2 Crecimiento rápido
+                            td.color-table2 Crecimiento lento
+                            td.color-table2 Decreciente
 
-              tr
-                td.color-table3 Utilidades
-                td.color-table3 Muy bajas o nulas
-                td.color-table3 Importantes: alcanzan el nivel máximo
-                td.color-table3 Decrecen
-                td.color-table3 Pocas o nulas
+                        tr
+                            td.text-bold Utilidades
+                            td.color-table3 Muy bajas o nulas
+                            td.color-table3 Importantes: alcanzan el nivel máximo
+                            td.color-table3 Decrecen
+                            td.color-table3 Pocas o nulas
 
-        p.text-center Fuente: (Hernández,2017) 
+                figcaption Fuente: (Hernández,2017) 
     Separador
     br
     br
-    #t1-2.titulo-segundo
+    #t_1_2.titulo-segundo
       h2 1.2. Servicios
     
     p.mb-3 Un servicio es una forma de producto que consiste en actividades, beneficios o satisfacciones que se ofrecen en venta y siendo esencialmente intangibles, no tienen como resultado la propiedad de algo. Algunos ejemplos son los servicios bancarios, el hospedaje en hoteles, los vuelos en aerolíneas, el comercio minorista y la comunicación inalámbrica (Kotler,2017).
@@ -289,7 +291,7 @@
     Separador
     br
     br
-    .titulo-segundo.mt-5#tema1_3
+    #t_1_3.titulo-segundo.mt-5
       h2 1.3. Marca
     figure
       img.mt-5.img-a.img-fluid(src="@/assets/curso/img_18.png")
@@ -300,9 +302,12 @@
 
     p Ricardo Hoyos (2016) define la importancia que tienen las marcas para el ser humano contemporáneo, como individuo y como ser social. A través de la marca, el ser humano se legitima frente a sí mismo y frente a los demás; por medio de ella se establecen afinidades con sus grupos de interés y distancias con personas y grupos sociales que considera diferentes. En razón de la marca, los individuos crean identidad de sí mismos y de sus grupos sociales.
 
-    p En el siguiente cuadro se muestran los beneficios de la marca para el consumidor
+    p.mb-5 En el siguiente cuadro se muestran los beneficios de la marca para el consumidor
 
-            table.table.table-nowrap.justify-content-center.text-center.mt-5
+    .row.justify-content-center
+        .col-lg-8
+            .tabla-c.color-acento-contenido.mb-5 
+                table.table
                     thead
                         tr
                             th(scope='col').color-table Necesidad
@@ -333,264 +338,264 @@
                             td.color-table2 Practicidad 
                             td.color-table2 Permite a las personas memorizar experiencias de consumo.
 
-            p.text-center Fuente: Román, 1988
+                figcaption Fuente: Román, 1988
 
-            p.mb-5 La administración de la marca es la actividad en la que una organización emplea un nombre, frase, diseño o símbolos, o combinaciones de estos, para identificar sus productos y distinguirlos de los competidores. Un nombre de marca es cualquier palabra, elemento (diseño, sonido, forma o color) o combinación de estos, que se emplea para distinguir los bienes o servicios de un vendedor. El nombre comercial es una identidad mercantil y legal bajo la cual una empresa hace negocios. Una marca registrada identifica a una empresa registrada legalmente con su nombre de marca o con su nombre comercial, por lo que tiene la exclusividad de su uso, evitando que otros lo empleen. (Kerin,2018)
+    p.mb-5 La administración de la marca es la actividad en la que una organización emplea un nombre, frase, diseño o símbolos, o combinaciones de estos, para identificar sus productos y distinguirlos de los competidores. Un nombre de marca es cualquier palabra, elemento (diseño, sonido, forma o color) o combinación de estos, que se emplea para distinguir los bienes o servicios de un vendedor. El nombre comercial es una identidad mercantil y legal bajo la cual una empresa hace negocios. Una marca registrada identifica a una empresa registrada legalmente con su nombre de marca o con su nombre comercial, por lo que tiene la exclusividad de su uso, evitando que otros lo empleen. (Kerin,2018)
 
-            h3.titulo-tercero   Tipos de marcas
+    h3.titulo-tercero   Tipos de marcas
 
-            .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5
+        .col-lg-6
+            img(src="@/assets/curso/img_19.png")
+
+    .row.mb-5
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 1
+                .h4 Marca corporativa
+                p Se habla de marca corporativa cuando identifica a una empresa; puede, incluso, ser la misma de sus productos. Las empresas muy pequeñas y con un portafolio poco diversificado o empresas de servicios, no asignan a cada producto una marca, sino que todo lo anuncian y comercializan con la marca de la organización, es decir, con la marca corporativa. Para el caso de empresas grandes y diversificadas, la marca corporativa regularmente es diferente a la de sus productos. Ej. Multinacionales extranjeras Unilever y Procter & Gamble y las multinacionales colombianas Nutresa y Quala. (Hoyos,2016
+
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 2
+                .h4 Marca de producto
+                p La marca de producto es aquella que se usa para identificar un bien o un servicio en particular. Como ejemplo de estas marcas se pueden mencionar: Fruco, Coco, Axe, Lux, Rexona, Vasenol y Knorr, que pertenecen a Unilever, una de las empresas líderes en consumo masivo a nivel mundial. (Hoyos,2016)
+    .row.mb-5    
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 3
+                .h4 Marcas propias o marca de distribuidor
+                p Es aquella que fabrica el canal para vender en sus puntos de venta, compitiendo con las marcas de los fabricantes. Se clasifican en dos: marca blanca se venden con el nombre del detallista (marca Éxito o Ekono) y las privadas que se venden con un nombre diferente al nombre de la cadena, pero que son “fabricadas” por esta o fabricadas por un tercero para esta. Arkitect y Bronzini, en vestuario; Simply, en electrodomésticos y Taeq en alimentos, son ejemplos de marcas privadas de almacenes Éxito. (Hoyos,2016)
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 4
+                .h4 Marca colectiva
+                p La desarrollan asociaciones de productores, fabricantes, prestadores de servicios, organizaciones o cualquier grupo de personas para identificar sus bienes y servicios. La marca colectiva busca explotar el buen nombre del cual gozan los integrantes y por extensión, la asociación misma, generando una ventaja competitiva frente a otros fabricantes que trabajan de manera individual. Ejemplo la Federación de Ganaderos –Fedegan–, presentó al mercado una marca colectiva para respaldar la producción de carne de seis frigoríficos asociados. El sello garantiza el origen del ganado, el sistema de clasificación de canales, los mecanismos de refrigeración y maduración de las carnes (Hoyos,2016)
+
+    .row.mb-5    
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 5
+                .h4 Denominación de origen
+                p Es el nombre o indicación de un lugar geográfico, que puede ser un país, una región determinada o una ciudad, que se asocia a un producto con el fin de darle más valor frente a los consumidores, ya que “garantiza que dicho producto sea originario de un lugar y, por las costumbres de producción o transformación de sus habitantes, tiene unas características y una reputación que lo hacen diferente de los productos semejantes provenientes de otros lugares geográﬁcos” (SIC, 2012) En Colombia se puede mencionar las artesanías de Ráquira, el bizcocho de Achira de Huila y el emblemático Café de Colombia. (Hoyos,2016)
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 6
+                .h4 Marca de certificación
+                p “Son las que se utilizan para garantizar una calidad o estándar de un producto o servicio” (SIC, 2012). Están las marcas ingrediente, los ecosellos, y las marcas que certifican que las empresas o productos cumplen con ciertas normas de calidad. Ejemplos Cotton USA. (Hoyos,2016)
+
+    .row.mb-5    
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 7
+                .h4 Marcas destino
+                p Son las desarrolladas para países (marca país), para ciudades o zonas de las ciudades. Hoy en día es común hablar de city marketing, haciendo referencia al marketing que se hace para un destino turístico y de inversión. La marca país se usa para hacer promoción hacia el exterior, buscando básicamente la promoción de las exportaciones y del turismo, además la promoción de la inversión extranjera. (Hoyos,2016)
+        .col-lg-6
+            .tarjeta-numerada.color-primario.p-5.h-100
+                .tarjeta-numerada__numero
+                    .h2 8
+                .h4 Marcas personales
+                p Aunque desde lo legal no existe este tipo de marca, el nombre de las personas, que existe en el concepto del registro civil y no del marcario, es una marca y, desde el marketing, debe recibir el tratamiento que se da a una marca comercial. Esto es importante para quienes viven del prestigio de sus nombres, como los profesionales independientes, los políticos y los artistas e, inclusive, quienes son empleados. Personal branding Ej. Natalia Paris, quien comercializa, entre otros productos, ropa interior, calzado, aceites, perfumes, revistas y servicios de telecomunicaciones. 
+
+ 
+    h3.titulo-tercero   Construcción de marcas fuertes
+
+    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+        .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+                figure
+                    img(src="@/assets/curso/img_20.png")
+            .col-lg-8
+                .bloque-texto-a__texto.p-5
+                    p Kotler (2017) determina que el branding representa una decisión difícil y las principales decisiones de estrategia de marca implican la selección del nombre de marca, co-branding y el desarrollo de marca.
+
+
+    .row.justify-content-center.mt-5.mb-5
+        .col-lg-4
+            .h3.titulo-tercero  Selección del nombre de marca.
+            p.mb-5  Un buen nombre contribuye al éxito de un producto; sin embargo, encontrar el mejor nombre de marca es una tarea difícil. Inicia con una revisión cuidadosa del producto y de sus beneficios, del mercado meta y de las estrategias de marketing propuestas. Después de eso, la asignación del nombre se vuelve una combinación de ciencia, arte y un poco de instinto. Algunas cualidades deseables para un nombre de marca son:
+        .col-lg-6
+            ul.lista-ul.mb-5.mt-5
+                li 
+                    i.fas.fa-check
+                    |   Sugerir algo acerca de los beneficios y las cualidades del producto. Ej. Pinterest.
+                li 
+                    i.fas.fa-check
+                    |   Fácil de pronunciar, reconocer y recordar. Ej. Twitter
+                    
+                li 
+                    i.fas.fa-check
+                    |   Distintivo.
+                li 
+                    i.fas.fa-check
+                    |   Se pueda ampliar. Ej. Amazon.com se inició como vendedor de libros en línea, pero eligió un nombre que le permitiera expandirse a otras categorías.
+                li 
+                    i.fas.fa-check
+                    |   Facilidad de traducción y no causar confusión con los idiomas. 
+                li 
+                    i.fas.fa-check
+                    |   Registrarse y protegerse legalmente.
+    .row.justify-content-center
+        .col-lg-10
+            .h3.titulo-tercero  Co-branding
+            p.mb-5  Si dos nombres de marca establecidos por diferentes compañías se usan en el mismo producto, surge el co-branding. Cada marca opera una categoría diferente, las marcas combinadas crean mayor atractivo para el consumidor y aumentan el capital de marca. Ej. Taco Bell y Doritos formaron equipo para crear los Doritos Locos Tacos.                   
+
+    .row.justify-content-center
+        .col-lg-10
+            .h3.titulo-tercero  Desarrollo de marca
+            p.mb-5  Una compañía tiene cuatro opciones para desarrollar una marca: 
+        .col-lg-10
+            .row.mb-5
                 .col-lg-6
-                    img(src="@/assets/curso/img_19.png")
+                    .card.h-100
+                        .card-body
+                            .h5.card-title  Extensiones de línea
+                            p   Cuando una empresa utiliza el nombre de una marca para introducir al mercado nuevas formas, nuevos colores, tamaños, ingredientes o sabores de una categoría de productos existente. 
+
+                .col-lg-6
+                    .card.h-100
+                        .card-body
+                            .h5.card-title  Extensiones de marca
+                            p   Una extensión de marca implica el uso de un nombre de marca exitoso para lanzar productos nuevos o modificados en una categoría nueva.  
 
             .row.mb-5
                 .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 1
-                        .h4 Marca corporativa
-                        p Se habla de marca corporativa cuando identifica a una empresa; puede, incluso, ser la misma de sus productos. Las empresas muy pequeñas y con un portafolio poco diversificado o empresas de servicios, no asignan a cada producto una marca, sino que todo lo anuncian y comercializan con la marca de la organización, es decir, con la marca corporativa. Para el caso de empresas grandes y diversificadas, la marca corporativa regularmente es diferente a la de sus productos. Ej. Multinacionales extranjeras Unilever y Procter & Gamble y las multinacionales colombianas Nutresa y Quala. (Hoyos,2016
+                    .card.h-100
+                        .card-body
+                            .h5.card-title  Multimarcas
+                            p   Las compañías a menudo introducen marcas adicionales en la misma categoría de productos. 
 
                 .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 2
-                        .h4 Marca de producto
-                        p La marca de producto es aquella que se usa para identificar un bien o un servicio en particular. Como ejemplo de estas marcas se pueden mencionar: Fruco, Coco, Axe, Lux, Rexona, Vasenol y Knorr, que pertenecen a Unilever, una de las empresas líderes en consumo masivo a nivel mundial. (Hoyos,2016)
-            .row.mb-5    
-                .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 3
-                        .h4 Marcas propias o marca de distribuidor
-                        p Es aquella que fabrica el canal para vender en sus puntos de venta, compitiendo con las marcas de los fabricantes. Se clasifican en dos: marca blanca se venden con el nombre del detallista (marca Éxito o Ekono) y las privadas que se venden con un nombre diferente al nombre de la cadena, pero que son “fabricadas” por esta o fabricadas por un tercero para esta. Arkitect y Bronzini, en vestuario; Simply, en electrodomésticos y Taeq en alimentos, son ejemplos de marcas privadas de almacenes Éxito. (Hoyos,2016)
-                .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 4
-                        .h4 Marca colectiva
-                        p La desarrollan asociaciones de productores, fabricantes, prestadores de servicios, organizaciones o cualquier grupo de personas para identificar sus bienes y servicios. La marca colectiva busca explotar el buen nombre del cual gozan los integrantes y por extensión, la asociación misma, generando una ventaja competitiva frente a otros fabricantes que trabajan de manera individual. Ejemplo la Federación de Ganaderos –Fedegan–, presentó al mercado una marca colectiva para respaldar la producción de carne de seis frigoríficos asociados. El sello garantiza el origen del ganado, el sistema de clasificación de canales, los mecanismos de refrigeración y maduración de las carnes (Hoyos,2016)
-
-            .row.mb-5    
-                .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 5
-                        .h4 Denominación de origen
-                        p Es el nombre o indicación de un lugar geográfico, que puede ser un país, una región determinada o una ciudad, que se asocia a un producto con el fin de darle más valor frente a los consumidores, ya que “garantiza que dicho producto sea originario de un lugar y, por las costumbres de producción o transformación de sus habitantes, tiene unas características y una reputación que lo hacen diferente de los productos semejantes provenientes de otros lugares geográﬁcos” (SIC, 2012) En Colombia se puede mencionar las artesanías de Ráquira, el bizcocho de Achira de Huila y el emblemático Café de Colombia. (Hoyos,2016)
-                .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 6
-                        .h4 Marca de certificación
-                        p “Son las que se utilizan para garantizar una calidad o estándar de un producto o servicio” (SIC, 2012). Están las marcas ingrediente, los ecosellos, y las marcas que certifican que las empresas o productos cumplen con ciertas normas de calidad. Ejemplos Cotton USA. (Hoyos,2016)
-
-            .row.mb-5    
-                .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 7
-                        .h4 Marcas destino
-                        p Son las desarrolladas para países (marca país), para ciudades o zonas de las ciudades. Hoy en día es común hablar de city marketing, haciendo referencia al marketing que se hace para un destino turístico y de inversión. La marca país se usa para hacer promoción hacia el exterior, buscando básicamente la promoción de las exportaciones y del turismo, además la promoción de la inversión extranjera. (Hoyos,2016)
-                .col-lg-6
-                    .tarjeta-numerada.color-primario.p-5.h-100
-                        .tarjeta-numerada__numero
-                            .h2 8
-                        .h4 Marcas personales
-                        p Aunque desde lo legal no existe este tipo de marca, el nombre de las personas, que existe en el concepto del registro civil y no del marcario, es una marca y, desde el marketing, debe recibir el tratamiento que se da a una marca comercial. Esto es importante para quienes viven del prestigio de sus nombres, como los profesionales independientes, los políticos y los artistas e, inclusive, quienes son empleados. Personal branding Ej. Natalia Paris, quien comercializa, entre otros productos, ropa interior, calzado, aceites, perfumes, revistas y servicios de telecomunicaciones. 
-
- 
-            h3.titulo-tercero   Construcción de marcas fuertes
-
-            .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
-                .row.m-0.align-items-center.justify-content-between
-                    .col-lg-4.mb-4.mb-lg-0
-                        figure
-                            img(src="@/assets/curso/img_20.png")
-                    .col-lg-8
-                        .bloque-texto-a__texto.p-5
-                            p Kotler (2017) determina que el branding representa una decisión difícil y las principales decisiones de estrategia de marca implican la selección del nombre de marca, co-branding y el desarrollo de marca.
+                    .card.h-100
+                        .card-body
+                            .h5.card-title  Marcas nuevas
+                            p   Una empresa podría considerar que el poder de su nombre de marca existente está disminuyendo, y que necesita un nuevo nombre de marca. O quizás una empresa idee un nuevo nombre de marca cuando ingresa a una nueva categoría de productos, donde ninguno de sus nombres de marca actuales es adecuado.
 
 
-            .row.justify-content-center.mt-5.mb-5
-                .col-lg-4
-                    .h3.titulo-tercero  Selección del nombre de marca.
-                    p.mb-5  Un buen nombre contribuye al éxito de un producto; sin embargo, encontrar el mejor nombre de marca es una tarea difícil. Inicia con una revisión cuidadosa del producto y de sus beneficios, del mercado meta y de las estrategias de marketing propuestas. Después de eso, la asignación del nombre se vuelve una combinación de ciencia, arte y un poco de instinto. Algunas cualidades deseables para un nombre de marca son:
-                .col-lg-6
-                    ul.lista-ul.mb-5.mt-5
-                        li 
-                            i.fas.fa-check
-                            |   Sugerir algo acerca de los beneficios y las cualidades del producto. Ej. Pinterest.
-                        li 
-                            i.fas.fa-check
-                            |   Fácil de pronunciar, reconocer y recordar. Ej. Twitter
+    .row.justify-content-center.align-items-center
+        .col-lg-10
+            table.table.table-nowrap.justify-content-center.text-center.mt-5
+                    thead
+                        tr
+                            th(scope='col').color-table Categoria Marca
+                            th(scope='col').color-table Existente 
+                            th(scope='col').color-table Nuevos
                             
-                        li 
-                            i.fas.fa-check
-                            |   Distintivo.
-                        li 
-                            i.fas.fa-check
-                            |   Se pueda ampliar. Ej. Amazon.com se inició como vendedor de libros en línea, pero eligió un nombre que le permitiera expandirse a otras categorías.
-                        li 
-                            i.fas.fa-check
-                            |   Facilidad de traducción y no causar confusión con los idiomas. 
-                        li 
-                            i.fas.fa-check
-                            |   Registrarse y protegerse legalmente.
-            .row.justify-content-center
-                .col-lg-10
-                    .h3.titulo-tercero  Co-branding
-                    p.mb-5  Si dos nombres de marca establecidos por diferentes compañías se usan en el mismo producto, surge el co-branding. Cada marca opera una categoría diferente, las marcas combinadas crean mayor atractivo para el consumidor y aumentan el capital de marca. Ej. Taco Bell y Doritos formaron equipo para crear los Doritos Locos Tacos.                   
+                    tbody
+                        tr
+                            td.color-table2 Existente
+                            td.color-table2 Extensión de línea
+                            td.color-table2 Extensión de marca
 
-            .row.justify-content-center
-                .col-lg-10
-                    .h3.titulo-tercero  Desarrollo de marca
-                    p.mb-5  Una compañía tiene cuatro opciones para desarrollar una marca: 
-                .col-lg-10
-                    .row.mb-5
-                        .col-lg-6
-                            .card.h-100
-                                .card-body
-                                    .h5.card-title  Extensiones de línea
-                                    p   Cuando una empresa utiliza el nombre de una marca para introducir al mercado nuevas formas, nuevos colores, tamaños, ingredientes o sabores de una categoría de productos existente. 
+                        tr
+                            td.color-table3 Nuevos
+                            td.color-table3 Multimarcas
+                            td.color-table3 Marcas nuevas
 
-                        .col-lg-6
-                            .card.h-100
-                                .card-body
-                                    .h5.card-title  Extensiones de marca
-                                    p   Una extensión de marca implica el uso de un nombre de marca exitoso para lanzar productos nuevos o modificados en una categoría nueva.  
+    .titulo-tercero.mt-5#tema1_3_1
+        h3 Personalidad de la marca
+    img.mt-5.img-a(src="@/assets/curso/img_22.png")
 
-                    .row.mb-5
-                        .col-lg-6
-                            .card.h-100
-                                .card-body
-                                    .h5.card-title  Multimarcas
-                                    p   Las compañías a menudo introducen marcas adicionales en la misma categoría de productos. 
-
-                        .col-lg-6
-                            .card.h-100
-                                .card-body
-                                    .h5.card-title  Marcas nuevas
-                                    p   Una empresa podría considerar que el poder de su nombre de marca existente está disminuyendo, y que necesita un nuevo nombre de marca. O quizás una empresa idee un nuevo nombre de marca cuando ingresa a una nueva categoría de productos, donde ninguno de sus nombres de marca actuales es adecuado.
+    p.mt-5 Las marcas exitosas y establecidas asumen una personalidad de marca, que es un conjunto de características humanas asociadas con un nombre de marca. Los estudios demuestran que los consumidores suelen asignar rasgos de personalidad a los productos: tradicionales, románticos, resistentes, sofisticados, rebeldes, y que eligen las marcas que concuerdan más con la imagen propia o deseada. Se da personalidad a una marca mediante la publicidad que representa a cierto usuario o situación de uso y que transmite ciertas emociones o sentimientos que se asociaran con la marca. E. Harley-Davidson tiene rasgos asociados con masculinidad, desafío e individualismo vigoroso (Kerin,2018).
 
 
-            .row.justify-content-center.align-items-center
-                .col-lg-10
-                    table.table.table-nowrap.justify-content-center.text-center.mt-5
-                            thead
-                                tr
-                                    th(scope='col').color-table Categoria Marca
-                                    th(scope='col').color-table Existente 
-                                    th(scope='col').color-table Nuevos
-                                    
-                            tbody
-                                tr
-                                    td.color-table2 Existente
-                                    td.color-table2 Extensión de línea
-                                    td.color-table2 Extensión de marca
+    .titulo-tercero.mt-5#tema1_3_1
+        h3 Branding
 
-                                tr
-                                    td.color-table3 Nuevos
-                                    td.color-table3 Multimarcas
-                                    td.color-table3 Marcas nuevas
+    img.mt-5.img-a(src="@/assets/curso/img_23.png").img-fluid
 
-            .titulo-tercero.mt-5#tema1_3_1
-                h3 Personalidad de la marca
-            img.mt-5.img-a(src="@/assets/curso/img_22.png")
+    p.mt-5 El branding o la creación de una marca es un proceso integrativo, que busca construir marcas poderosas; es decir, marcas ampliamente conocidas, asociadas a elementos positivos, deseadas y compradas por una base amplia de consumidores. Esto incluye la definición de la identidad o imagen que se quiere tener en un mercado, su diseño gráfico y la puesta en escena de la marca frente a determinados públicos, de manera que tome relevancia y, además, rentabilidad a través de todos los procesos de compra y recompra de la misma (Hoyos,2016).
 
-            p.mt-5 Las marcas exitosas y establecidas asumen una personalidad de marca, que es un conjunto de características humanas asociadas con un nombre de marca. Los estudios demuestran que los consumidores suelen asignar rasgos de personalidad a los productos: tradicionales, románticos, resistentes, sofisticados, rebeldes, y que eligen las marcas que concuerdan más con la imagen propia o deseada. Se da personalidad a una marca mediante la publicidad que representa a cierto usuario o situación de uso y que transmite ciertas emociones o sentimientos que se asociaran con la marca. E. Harley-Davidson tiene rasgos asociados con masculinidad, desafío e individualismo vigoroso (Kerin,2018).
+    .row.justify-content-center.align-items-center.mt-5
+        .col-auto
+            img(src="@/assets/curso/img_24.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+        .col-10
+            hr.border-color-primary.border-2
+            p #[strong Capital de marca.]
+            p El capital de marca es el efecto diferencial que el conocimiento del nombre de una marca tiene sobre la respuesta del cliente ante el producto o su comercialización. Es una medida de la capacidad que tiene la marca para obtener la preferencia y lealtad del cliente. Una marca tiene un capital positivo cuando los consumidores reaccionan de manera más favorable ante ella que ante una versión genérica o sin marca del mismo producto. A la inversa, una marca tiene un capital negativo si los consumidores reaccionan ante ella, de manera menos favorable que a una versión sin marca (Kotler,2017).
+            hr.border-color-primary.border-2
+        .col-auto
+            img(src="@/assets/curso/img_25.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+        .col-10
+            p #[strong Top of mind.]
+            p El top of mind o primera mención, se da cuando una persona, al ser indagada por una categoría específica, nombra una marca primero dentro de una serie de marcas que menciona, es decir, que dicha marca tiene el top of mind para dicha persona. En una investigación de top of mind, se preguntará a una base de personas, de un grupo objetivo específico, por marcas que recuerde y se estimará el promedio de personas que recuerdan una marca por sobre las demás. Dicho porcentaje será el top of mind de la categoría. En Colombia, anualmente, la Revista Dinero y la empresa de investigación de mercados, Invamer Gallup, realizan una investigación para establecer el top of mind de las marcas que compiten en este mercado. (Hoyos,2016) 
+            hr.border-color-primary.border-2
+        .col-auto
+            img(src="@/assets/curso/img_26.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
+        .col-10
+            p #[strong E-branding.]
+            p Rowles (2014) define al e-branding como la personalidad de la organización, servicio o producto creado por la suma de todas experiencias que una persona tiene con la marca, incluyendo la interacción con las redes sociales y las evaluaciones críticas online del desempeño de una marca (online reviews). Es decir, en esencia la marca y sus indicadores como conocimiento de marca, posicionamiento, preferencia de marca, intención de compra, re-compra y recomendación de marca, permanecen intactas. Lo que cambia con el advenimiento de la era digital es la forma en que se construye marca. 
+            hr.border-color-primary.border-2
 
+    .titulo-tercero.mt-5#tema1_3_2
+        h3 Posicionamiento
+    
+    img.mt-5.img-a(src="@/assets/curso/img_27.png").img-fluid
 
-            .titulo-tercero.mt-5#tema1_3_1
-                h3 Branding
+    p.mt-5 El posicionamiento es lo que queremos que el consumidor piense acerca de nuestro producto, es decir, aquello que se constituye en la idea básica de venta, que generalmente es una afirmación o una frase. El posicionamiento se requiere cuando hay muchas alternativas de productos y marcas, muchos anuncios publicitarios, así como cuando la competencia ataca y cuando el producto entra al mercado. (Prieto,2013)
 
-            img.mt-5.img-a(src="@/assets/curso/img_23.png").img-fluid
+    p Para Prieto (2013) al hablar de posicionamiento se deben plantear las siguientes inquietudes: 
 
-            p.mt-5 El branding o la creación de una marca es un proceso integrativo, que busca construir marcas poderosas; es decir, marcas ampliamente conocidas, asociadas a elementos positivos, deseadas y compradas por una base amplia de consumidores. Esto incluye la definición de la identidad o imagen que se quiere tener en un mercado, su diseño gráfico y la puesta en escena de la marca frente a determinados públicos, de manera que tome relevancia y, además, rentabilidad a través de todos los procesos de compra y recompra de la misma (Hoyos,2016).
+    .row.justify-content-center.align-items-center
+            .col-auto
+                img(src="@/assets/curso/img_28.png", alt="").img-icon
+            .col
+                ul.list-unstyled
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Para qué se usa el producto?
 
-            .row.justify-content-center.align-items-center.mt-5
-                .col-auto
-                    img(src="@/assets/curso/img_24.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
-                .col-10
-                    hr.border-color-primary.border-2
-                    p #[strong Capital de marca.]
-                    p El capital de marca es el efecto diferencial que el conocimiento del nombre de una marca tiene sobre la respuesta del cliente ante el producto o su comercialización. Es una medida de la capacidad que tiene la marca para obtener la preferencia y lealtad del cliente. Una marca tiene un capital positivo cuando los consumidores reaccionan de manera más favorable ante ella que ante una versión genérica o sin marca del mismo producto. A la inversa, una marca tiene un capital negativo si los consumidores reaccionan ante ella, de manera menos favorable que a una versión sin marca (Kotler,2017).
-                    hr.border-color-primary.border-2
-                .col-auto
-                    img(src="@/assets/curso/img_25.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
-                .col-10
-                    p #[strong Top of mind.]
-                    p El top of mind o primera mención, se da cuando una persona, al ser indagada por una categoría específica, nombra una marca primero dentro de una serie de marcas que menciona, es decir, que dicha marca tiene el top of mind para dicha persona. En una investigación de top of mind, se preguntará a una base de personas, de un grupo objetivo específico, por marcas que recuerde y se estimará el promedio de personas que recuerdan una marca por sobre las demás. Dicho porcentaje será el top of mind de la categoría. En Colombia, anualmente, la Revista Dinero y la empresa de investigación de mercados, Invamer Gallup, realizan una investigación para establecer el top of mind de las marcas que compiten en este mercado. (Hoyos,2016) 
-                    hr.border-color-primary.border-2
-                .col-auto
-                    img(src="@/assets/curso/img_26.png", style="max-width: 120px").img-fluid.mb-3.mb-md-0
-                .col-10
-                    p #[strong E-branding.]
-                    p Rowles (2014) define al e-branding como la personalidad de la organización, servicio o producto creado por la suma de todas experiencias que una persona tiene con la marca, incluyendo la interacción con las redes sociales y las evaluaciones críticas online del desempeño de una marca (online reviews). Es decir, en esencia la marca y sus indicadores como conocimiento de marca, posicionamiento, preferencia de marca, intención de compra, re-compra y recomendación de marca, permanecen intactas. Lo que cambia con el advenimiento de la era digital es la forma en que se construye marca. 
-                    hr.border-color-primary.border-2
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Por qué se usa el producto?
 
-            .titulo-tercero.mt-5#tema1_3_2
-                h3 Posicionamiento
-            
-            img.mt-5.img-a(src="@/assets/curso/img_27.png").img-fluid
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Cuál es la población objetivo del producto o servicio?
 
-            p.mt-5 El posicionamiento es lo que queremos que el consumidor piense acerca de nuestro producto, es decir, aquello que se constituye en la idea básica de venta, que generalmente es una afirmación o una frase. El posicionamiento se requiere cuando hay muchas alternativas de productos y marcas, muchos anuncios publicitarios, así como cuando la competencia ataca y cuando el producto entra al mercado. (Prieto,2013)
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Qué beneficios genera a ese grupo de usuarios el producto?
 
-            p Para Prieto (2013) al hablar de posicionamiento se deben plantear las siguientes inquietudes: 
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Cómo se puede explotar al máximo el producto?
 
-            .row.justify-content-center.align-items-center
-                    .col-auto
-                        img(src="@/assets/curso/img_28.png", alt="").img-icon
-                    .col
-                        ul.list-unstyled
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Para qué se usa el producto?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | Comparando los productos competidores, ¿dónde está mentalmente el nuestro?
 
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Por qué se usa el producto?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Es comprensible el producto y sus atributos?
 
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Cuál es la población objetivo del producto o servicio?
-
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Qué beneficios genera a ese grupo de usuarios el producto?
-
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Cómo se puede explotar al máximo el producto?
-
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | Comparando los productos competidores, ¿dónde está mentalmente el nuestro?
-
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Es comprensible el producto y sus atributos?
-
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Cuáles son las características indiscutibles del producto?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Cuáles son las características indiscutibles del producto?
 
 
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Se diferencia el producto de los de la competencia?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Se diferencia el producto de los de la competencia?
 
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Sabe el cliente dónde comprar el producto?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Sabe el cliente dónde comprar el producto?
 
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Esta segmentado el mercado del producto?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Esta segmentado el mercado del producto?
 
-                            li.justify-content-center
-                                i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
-                                | ¿Es efectiva la publicidad aplicada al producto?
+                    li.justify-content-center
+                        i.fa.fa-angle-right.fa-lg.mr-3.text-color-orange
+                        | ¿Es efectiva la publicidad aplicada al producto?
 
             p.mt-5 Según Kotler (2017), el objetivo es posicionar las marcas con claridad en la mente del mercado meta. #[br]Las marcas se pueden posicionar en tres niveles.
 
@@ -697,7 +702,7 @@
             Separador
             br
             br
-            .titulo-segundo.mt-5#tema1_4
+            #t_1_4.titulo-segundo.mt-5
                 h2 1.4. Envase
 
             img.mt-5.img-a(src="@/assets/curso/img_30.png").img-fluid   
@@ -771,7 +776,7 @@
             Separador
             br
             br
-            .titulo-segundo.mt-5#tema1_5
+            #t_1_5.titulo-segundo.mt-5
                 h2 1.5. Empaque
             .row.justify-content-center
                 .col-lg-10
@@ -807,7 +812,7 @@
             Separador
             br
             br
-            .titulo-segundo.mt-5#tema1_6
+            #t_1_6.titulo-segundo.mt-5
                 h2 1.6. Embalaje
             .row.justify-content-center
                 .col-lg-12
@@ -829,7 +834,7 @@
                             .h3 Función de unificación
                             p.mb-3  Los productos de consumo no se pueden comercializar a granel en los sistemas de distribución masiva. No es posible distribuir ningún producto si no está debidamente embalado. Las cargas formadas por productos embalados colectivamente llegan a ser homogéneas o heterogéneas. Cuando la carga es homogénea no es difícil resolver su acomodo, pero cuando es heterogénea (con pesos, dimensiones y materiales distintos), surge el problema de su acomodo, por la posibilidad de caídas y daños.
                 .col-lg-12
-                    .card.r30.p-3.tarjeta--gris
+                    .card.r30.p-3.tarjeta--gris.mb-5
                         .card-body
                             .h3 Función de protección
                             p.mb-3  La protección que da el embalaje al producto es de vital importancia para llevar a efecto su distribución masiva. Los materiales del envase y el embalaje que se utilizan comúnmente son:
@@ -839,7 +844,7 @@
                                         .row.justify-content-center.mb-3
                                             .col-7
                                                 figure
-                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                                img(src='@/assets/curso/ic-px1.svg', alt='Texto que describa la imagen')
                                         h4.text-center Papel
                                         p.text-small Es uno de los materiales más utilizados para el envase y puede combinarse con el aluminio y las películas plásticas. Su función principal es evitar fricciones entre las piezas, así como proporcionar una envoltura desechable que evite las raspaduras y la vibración. El papel no resiste la humedad ni las grasas.
                                 .col-lg-4
@@ -847,7 +852,7 @@
                                         .row.justify-content-center.mb-3
                                             .col-7
                                                 figure
-                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                                img(src='@/assets/curso/ic-px2.svg', alt='Texto que describa la imagen')
                                         h4.text-center Cartón
                                         p.text-small Se utiliza más como amortiguador que como envase. Como embalaje es posible darle propiedades impermeables aplicando películas de parafina o polietileno.
 
@@ -856,7 +861,7 @@
                                         .row.justify-content-center.mb-3
                                             .col-7
                                                 figure
-                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                                img(src='@/assets/curso/ic-px3.svg', alt='Texto que describa la imagen')
                                         h4.text-center Madera
                                         p.text-small Se emplea para la fabricación de tarimas, cajas, rejas o jaulas y carretes. Usualmente se utiliza la madera de pino por resistente y barata.
                             .row.mb-5
@@ -865,7 +870,7 @@
                                         .row.justify-content-center.mb-3
                                             .col-7
                                                 figure
-                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                                img(src='@/assets/curso/ic-px4.svg', alt='Texto que describa la imagen')
                                         h4.text-center Plásticos
                                         p.text-small Sirve para fabricar envases y embalajes de alta productividad; sin embargo, el plástico no es biodegradable por lo que representa problemas ecológicos graves a futuro. Este tipo de envases se deben reciclar.
                                 .col-lg-4
@@ -873,7 +878,7 @@
                                         .row.justify-content-center.mb-3
                                             .col-7
                                                 figure
-                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                                img(src='@/assets/curso/ic-px5.svg', alt='Texto que describa la imagen')
                                         h4.text-center Vidrio
                                         p.text-small Es el material tradicional para el envase de alimentos, vinos, algunos fármacos y cosméticos. Algunas de sus características son su estabilidad química, que son 100% impermeables, la esterilización, refractabilidad, retornabilidad y la presentación de calidad.
 
@@ -882,17 +887,19 @@
                                         .row.justify-content-center.mb-3
                                             .col-7
                                                 figure
-                                                img(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')
+                                                img(src='@/assets/curso/ic-px6.svg', alt='Texto que describa la imagen')
                                         h4.text-center Metales
                                         p.text-small La hoja de lata es mayormente utilizada para la conservación de alimentos, así como para el envasado de pinturas, solventes y productos químicos, mientras que el aluminio lo es para los refrescos.
 
-
-                            .embed-responsive.embed-responsive-16by9.mb-5
-                                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/bv8zTM9mZZ8', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+                            .row.justify-content-center.mb-5
+                                .col-lg-8
+                                    figure.mb-5
+                                        .video
+                                            iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/bv8zTM9mZZ8', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
             Separador
             br
             br
-            .titulo-segundo.mt-5#tema1_7 
+            #t_1_7.titulo-segundo.mt-5
                 h2 1.7. Etiqueta
 
             img.mt-5.img-a(src="@/assets/curso/img_35.png").img-fluid 
@@ -1019,8 +1026,7 @@
 
 
 
-            .titulo-tercero.mt-5#tema1_7_1 
-                h3 1.7.1. Códigos barras
+            h3.titulo-tercero.mt-5#tema1_7_1 Códigos barras
 
             img.img-a(src="@/assets/curso/img_42.png").img-fluid 
 
@@ -1087,7 +1093,7 @@
             Separador
             br
             br
-            .titulo-segundo.mt-5#tema1_8 
+            #t_1_8.titulo-segundo.mt-5
                 h2 1.8. Marketing Green
 
             img.img-a(src="@/assets/curso/img_47.png").img-fluid 
@@ -1107,7 +1113,7 @@
             Separador
             br
             br
-            .titulo-segundo.mt-5#tema1_9 
+            #t_1_9.titulo-segundo.mt-5
                 h2 1.9. Marketing Social
 
             img.img-a(src="@/assets/curso/img_48.png").img-fluid 
@@ -1138,7 +1144,7 @@
             Separador
             br
             br
-            .titulo-segundo#tema1_10 
+            #t_1_10.titulo-segundo 
                 h2 1.10. Normativa
             .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
                 .row.m-0.align-items-center.justify-content-between
