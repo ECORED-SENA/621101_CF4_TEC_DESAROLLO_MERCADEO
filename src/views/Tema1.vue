@@ -93,7 +93,7 @@
                     td.color-table2 Permite a las personas memorizar experiencias de consumo.
             figcaption Fuente: (Hernández,2017)
 
-    h3.titulo-tercero Clasificación de los productos
+    //-- h3.titulo-tercero Clasificación de los productos
     .tarjeta.color-primario.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -143,31 +143,31 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta-numerada.color-primario.px-5.py-4.mb-3.borde-y
+        .tarjeta-numerada.color-secundario.px-5.py-4.mb-3.borde-y
           .tarjeta-numerada__numero
             .h2 1
-          p Desarrollo del producto: inicia cuando la compañía encuentra y desarrolla la idea para un nuevo producto o servicio. Durante el desarrollo del producto, las ventas son iguales a cero y los costos de inversión de la compañía se incrementan. (Kotler,2017)
+          p <b>Desarrollo del producto:</b> inicia cuando la compañía encuentra y desarrolla la idea para un nuevo producto o servicio. Durante el desarrollo del producto, las ventas son iguales a cero y los costos de inversión de la compañía se incrementan. (Kotler,2017)
 
-        .tarjeta-numerada.color-primario.px-5.py-4.mb-3.borde-y
+        .tarjeta-numerada.color-secundario.px-5.py-4.mb-3.borde-y
           .tarjeta-numerada__numero
             .h2 2
-          p Introducción: ocurre cuando el producto se presenta por primera vez en el mercado meta deseado. (Kerin,2018) Es un periodo de crecimiento lento de las ventas conforme el producto o servicio se lanza al mercado. Las utilidades son nulas en esta fase a causa de los considerables gastos del lanzamiento del producto. (Kotler,2017) 
+          p <b>Introducción:</b> ocurre cuando el producto se presenta por primera vez en el mercado meta deseado. (Kerin,2018) Es un periodo de crecimiento lento de las ventas conforme el producto o servicio se lanza al mercado. Las utilidades son nulas en esta fase a causa de los considerables gastos del lanzamiento del producto. (Kotler,2017) 
           p.text-bold Un ejemplo para la etapa de introducción es el último Smartphone sacado al mercado.
 
-        .tarjeta-numerada.color-primario.px-5.py-4.mb-3.borde-y
+        .tarjeta-numerada.color-secundario.px-5.py-4.mb-3.borde-y
           .tarjeta-numerada__numero
             .h2 3
-          p Crecimiento: se caracteriza por rápidos aumentos en las ventas. En esta fase aparecen los competidores. (Kerin,2018) Es una etapa de aceptación rápida en el mercado y de incremento en las utilidades. (Kotler,2017)
+          p <b>Crecimiento:</b> se caracteriza por rápidos aumentos en las ventas. En esta fase aparecen los competidores. (Kerin,2018) Es una etapa de aceptación rápida en el mercado y de incremento en las utilidades. (Kotler,2017)
         
-        .tarjeta-numerada.color-primario.px-5.py-4.mb-3.borde-y
+        .tarjeta-numerada.color-secundario.px-5.py-4.mb-3.borde-y
           .tarjeta-numerada__numero
             .h2 4
-          p Madurez: disminuye el crecimiento de las ventas porque el producto o servicio ya ganó la aceptación de la mayoría de los compradores potenciales. El nivel de utilidades se estabiliza o incluso disminuye a causa de los crecientes gastos de marketing para defender el producto frente a la competencia. (Kotler,2017)
+          p <b>Madurez:</b> disminuye el crecimiento de las ventas porque el producto o servicio ya ganó la aceptación de la mayoría de los compradores potenciales. El nivel de utilidades se estabiliza o incluso disminuye a causa de los crecientes gastos de marketing para defender el producto frente a la competencia. (Kotler,2017)
 
-        .tarjeta-numerada.color-primario.px-5.py-4.mb-3.borde-y
+        .tarjeta-numerada.color-secundario.px-5.py-4.mb-3.borde-y
           .tarjeta-numerada__numero
             .h2 5
-          p Decadencia: es el periodo en el que tanto las ventas como las utilidades disminuyen. (Kotler,2017) Con frecuencia, un producto entra en esta etapa no por una estrategia equivocada por parte de la empresa, sino por cambios en el entorno. Una empresa seguirá una de dos estrategias para manejar un producto en decadencia: la eliminación o su drástica desaparición de la línea de productos y la cosecha que consiste en que el producto sigue ofreciéndose, aunque los vendedores no asignan tiempo para venderlo ni se realizan gastos de publicidad. (Kerin,2018)
+          p <b>Decadencia:</b> es el periodo en el que tanto las ventas como las utilidades disminuyen. (Kotler,2017) Con frecuencia, un producto entra en esta etapa no por una estrategia equivocada por parte de la empresa, sino por cambios en el entorno. Una empresa seguirá una de dos estrategias para manejar un producto en decadencia: la eliminación o su drástica desaparición de la línea de productos y la cosecha que consiste en que el producto sigue ofreciéndose, aunque los vendedores no asignan tiempo para venderlo ni se realizan gastos de publicidad. (Kerin,2018)
 
     p.mb-5 A continuación, Hernández (2017) realiza un cuadro sobre las características e implicaciones de cada etapa del ciclo de vida del producto.
       .row.justify-content-center
@@ -481,7 +481,8 @@
 
     .row.justify-content-center.align-items-center
         .col-lg-10
-            table.table.table-nowrap.justify-content-center.text-center.mt-5
+            .tabla-c.color-acento-contenido.mb-5 
+                table.table.tabletable-nowrap
                     thead
                         tr
                             th(scope='col').color-table Categoria Marca
@@ -1034,11 +1035,14 @@
 
             p En el sector del comercio, sobre todo, pero también en muchos otros sectores, el código de barras responde a dos necesidades: la primera, tener una codificación de cobertura universal, de modo que un ítem tenga un código que lo identifique en todo el mundo y que sea irrepetible; la segunda, que el código sea leído por una máquina, que se elimine la digitación, para efectos de eliminación de errores y de rapidez de operación. El lenguaje de barras paralelas verticales, de diferente grosor y diferente espesor de separación, con el que se crean códigos alfanuméricos, posibles de leer mediante un rayo láser y ser transmitidos a un sistema de computación (Vélez,2014).
 
-            p Actualmente, el Código EAN 13. Es el más utilizado entre todas las aplicaciones del GS1. A veces conocido como GTIN (Global Trade Item Number). Es el código de uso corriente para lectura en las cajas registradoras en los autoservicios, es decir, es el sistema utilizado para la codificación de bienes de consumo. El EAN 13 está compuesto por 13 dígitos, generalmente la estructura de la codificación es la siguiente según Vélez (2014):
+            p.mb-5 Actualmente, el Código EAN 13. Es el más utilizado entre todas las aplicaciones del GS1. A veces conocido como GTIN (Global Trade Item Number). Es el código de uso corriente para lectura en las cajas registradoras en los autoservicios, es decir, es el sistema utilizado para la codificación de bienes de consumo. El EAN 13 está compuesto por 13 dígitos, generalmente la estructura de la codificación es la siguiente según Vélez (2014):
 
-            img.img-a(src="@/assets/curso/img_43.png").img-fluid 
+            .row.justify-content-center.mb-5
+                .col-lg-10
+                    figure
+                        img(src="@/assets/curso/img_43.png")
 
-            .row.justify-content-center.align-items-center.mt-5
+            .row.justify-content-center.align-items-center.mb-5
                 .col-10.col-md-9
                     .row
                         .col-auto
@@ -1057,36 +1061,35 @@
 
             p A continuación, Vélez (2014) nos describe las posiciones de la etiqueta RFID.
 
-            .row.justify-content-center.align-items-center.mt-5
-                .col-10.col-md-9
+            .row.justify-content-center.align-items-center.mt-5.mb-5
+                .col-lg-3.mb-5
+                    figure
+                        img.h180(src="@/assets/curso/img_46.png", alt="")
+                .col-lg-6
                     .row
-                        .col-auto
-                            img(src="@/assets/curso/img_46.png", alt="").img-icon
-                        .col
-                            .row
-                                .col-1.col-md-1.flecha
-                                    img(src="@/assets/curso/img_37.png").img-icon
-                                .col-9.col-md-9
-                                    p #[strong Marca.]
-                                    p.mt-0 2 posiciones indican el número de versión utilizada en ese EPC
-                            .row
-                                .col-1.col-md-1.flecha
-                                    img(src="@/assets/curso/img_37.png").img-icon
-                                .col-9.col-md-9
-                                    p #[strong Administrador EPC.]
-                                    p.mt-0 6 posiciones indican la empresa que se hace responsable.
-                            .row
-                                .col-1.col-md-1.flecha
-                                    img(src="@/assets/curso/img_37.png").img-icon
-                                .col-9.col-md-9
-                                    p #[strong Categoría de objeto.]
-                                    p.mt-0 6 posiciones identifican el tipo de producto.
-                            .row
-                                .col-1.col-md-1.flecha
-                                    img(src="@/assets/curso/img_37.png").img-icon
-                                .col-9.col-md-9
-                                    p #[strong Número serial.]
-                                    p.mt-0 9 posiciones forman el identificador universal inequívoco de ítem.
+                        .col-1.col-md-1.flecha
+                            img(src="@/assets/curso/img_37.png").img-icon
+                        .col-9.col-md-9
+                            p #[strong Marca.]
+                            p.mt-0 2 posiciones indican el número de versión utilizada en ese EPC
+                    .row
+                        .col-1.col-md-1.flecha
+                            img(src="@/assets/curso/img_37.png").img-icon
+                        .col-9.col-md-9
+                            p #[strong Administrador EPC.]
+                            p.mt-0 6 posiciones indican la empresa que se hace responsable.
+                    .row
+                        .col-1.col-md-1.flecha
+                            img(src="@/assets/curso/img_37.png").img-icon
+                        .col-9.col-md-9
+                            p #[strong Categoría de objeto.]
+                            p.mt-0 6 posiciones identifican el tipo de producto.
+                    .row
+                        .col-1.col-md-1.flecha
+                            img(src="@/assets/curso/img_37.png").img-icon
+                        .col-9.col-md-9
+                            p #[strong Número serial.]
+                            p.mt-0 9 posiciones forman el identificador universal inequívoco de ítem.
 
             p El sistema opera mediante una tarjeta o tag, que contiene un chip con una memoria interna, variable hasta millares de bytes, según el modelo y una antena transmisora, adherida al ítem, que puede ser objeto, animal o aún, persona y que, mediante ondas de radio, entrega los datos de un código a un lector RFID que los capta y puede transmitirlos a un sistema de computación, para ser procesados. Indiscutiblemente el código de barras será sustituido rápidamente por aplicaciones y utilizaciones prácticas y rutinarias del sistema RFID (Vélez, 2014).
 
@@ -1215,5 +1218,6 @@ export default {
 
 <style lang="sass" scoped>
 .h90 {height: 90px}
+.h180{height: 180px; width: 180px}
 .bg-image-cover{background: url('../assets/curso/t1-i6.jpg'); background-size: cover;}
 </style>

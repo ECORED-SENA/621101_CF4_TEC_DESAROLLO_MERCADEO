@@ -114,150 +114,207 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Hernández, C. (2017). Fundamentos de marketing. Ed. 2. México. Pearson.',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Hoyos, R. (2016). Branding, el arte de marcar corazones. Bogotá. Ecoe Ediciones.',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Kerin, R; Harley, S. (2018). Marketing. Ed.13 México. McGraw Hill.',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Kotler, P; Amstrong, G. (2017). Marketing. Ed.16. México. Pearson',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Lovelock, C. (2015) Marketing de servicios. Personal, tecnología y estrategia. Ed. 7. México. Pearson Education.',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Martínez, A; Ruiz, C. (2014). Marketing en la actividad comercial. Madrid. McGraw Hill',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Prettel, G. (2016). Marketing, una herramienta para el crecimiento. Bogotá. Ediciones de la U.',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Prieto, J. E. (2013). Investigación de mercados. Ed. 2. Bogotá. Ecoe Ediciones.',
+    },
+    {
+      referencia:
+        'Vélez, T. (2014) Logística empresarial, gestión eficiente del flujo de suministros. Bogotá. Ediciones de la U.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'ACTIVACIÓN DE MARCA',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Estrategia que busca captar la atención de los consumidores, acercar las marcas a ellos y sorprenderlos. Se basa en la persuasión para impactar al consumidor y lograr su compenetración con la marca.',
     },
     {
-      termino: 'Suftware',
+      termino: 'ATRIBUTOS DEL PRODUCTO',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Características que diferencian a un producto y contribuyen a formar una imagen definida del mismo en los consumidores y usuarios. Pueden ser intrínsecos y extrínsecos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'ATRIBUTOS EXTRÍNSECOS',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Son atributos del producto mismo de los que el consumidor suele extraer información acerca de la calidad, por ejemplo, el nombre de la marca, el país de origen y el precio.',
     },
     {
-      termino: 'Áectores',
+      termino: 'ATRIBUTOS INTRÍNSECOS',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Atributos propios del producto que proporcionan una utilidad al consumidor. Por ejemplo, la potencia de un ordenador, la nitidez de la imagen de un televisor, la seguridad de un automóvil, etc.',
     },
     {
-      termino: 'Moda',
+      termino: 'CICLO DE VIDA DEL PRODUCTO',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Son las etapas por la que atraviesa un producto desde su lanzamiento, crecimiento, madurez y decadencia. Para cada etapa existen diferentes estrategias de marketing.',
     },
     {
-      termino: 'Diseño',
+      termino: 'EMBALAJE',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Recipiente o envoltura que contiene productos de manera temporal principalmente para agrupar unidades de un producto pensando en su manipulación, transporte y almacenaje.',
     },
     {
-      termino: 'Tipología',
+      termino: 'EMPAQUE',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Es una parte fundamental del producto, porque además de contener, proteger y/o preservar el producto permitiendo que este llegue en óptimas condiciones al consumidor final, es una poderosa herramienta de promoción y venta.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'ENVASE',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es todo empaque que contiene y protege un producto, que nos ayuda a su manipulación, transporte e identificación del artículo.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'IMAGEN DE MARCA',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Representación mental de un conjunto de ideas, creencias e impresiones reales o psicológicas, que el consumidor o la consumidora considera que tiene una marca determinada para satisfacer sus deseos o necesidades.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'MARKETING VERDE',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el marketing de productos que son mostrados como ambientales. De esta manera el marketing verde incorpora un gran rango de actividades, incluyendo modificación de productos, cambios a los procesos de producción empaques sustentables.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'MEZCLA DE PRODUCTOS',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'O variedad de productos, se refiere al número total de líneas de productos que una empresa ofrece a sus clientes. Por ejemplo, una empresa pequeña puede ofrecer varias líneas de productos. A veces, estas líneas de productos son muy similares, como los detergentes líquidos y los jabones en barra, ya que ambos sirven para limpiar y utilizan una tecnología similar. En otras ocasiones, las líneas de producto son muy diferentes, como los pañales y las hojas de afeitar. Las cuatro dimensiones de la mezcla de productos de una empresa incluyen: ancho, largo, profundidad y consistencia.',
+    },
+    {
+      termino: 'POSICIONAMIENTO',
+      significado:
+        'Es una estrategia comercial que pretende conseguir que un producto ocupe un lugar distintivo, relativo a la competencia, en la mente del consumidor. Se entiende el concepto de «producto» de forma amplia: puede tratarse de un elemento físico, intangible, empresa, lugar, partido político, creencia religiosa, persona, etc. De esta manera, lo que ocurre en el mercado en relación con el producto es consecuencia de lo que ocurre en la subjetividad de cada individuo en el proceso de conocimiento, consideración y uso de la oferta.',
+    },
+    {
+      termino: 'PRODUCTO',
+      significado:
+        'Es todo aquel bien material o inmaterial que puesto en el mercado viene a satisfacer la necesidad de un determinado cliente. Al bien material se le denomina producto y al inmaterial servicio, de ahí que la principal característica diferenciadora sea la tangibilidad del bien en cuestión.',
+    },
+    {
+      termino: 'SERVICIO',
+      significado:
+        'Cualquier actividad, beneficio o satisfacción que se ofrece a la venta. Es esencialmente intangible y no puede resultar en propiedad de algo concreto. El servicio puede o no estar ligado a un producto físico o tangible.',
+    },
+    {
+      termino: 'STOCK',
+      significado:
+        'Es la cantidad de mercadería que posee la empresa dispuesta para vender o en el depósito. Mientras más rápido mueve el stock y mientras menos cantidad de stock necesita más rápido se mueve el capital y más rentable es el local.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Kotler, P; Amstrong, G. (2017). Marketing.”',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4426&pg=1',
+    },
+    {
+      texto: 'Prettel, (2016). Marketing, una herramienta para el crecimiento.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5684&pg=1',
+    },
+    {
+      texto: 'Prieto, E. (2013). Investigación de mercados.',
+      tipo: 'Libro',
+      link:
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=4870549&ppg=1',
+    },
+    {
+      texto: 'Kerin, R; Harley, S. (2018). Marketing.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=6261&pg=1',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Martínez, A; Ruiz, C. (2014). Marketing en la actividad comercial.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5352&pg=1',
+    },
+    {
+      texto: 'Hernández, C. (2017). Fundamentos de marketing.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4404&pg=1',
+    },
+    {
+      texto: 'Hoyos, R. (2016). Branding, el arte de marcar corazones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=2769&pg=1',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Lovelock, C. (2015) Marketing de servicios. Personal, tecnología y estrategia.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3701&pg=1',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Vélez, T. (2014) Logística empresarial.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5569&pg=1',
     },
   ],
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'Ingry Dayanna Bonilla Monzon',
         cargo: 'Líder del equipo',
-        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Gloria Matilde Lee Mejía',
+        cargo: 'Responsable del equipo',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Asesor pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'ENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA - Regional Santander',
+      },
+      {
+        nombre: 'Claudia Juliana León Pinto',
+        cargo: 'Experta tematica',
+        centro: 'Centro de Gestión Industrial - Regional Santander',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jesús Libardo Acero',
+        cargo: 'Evaluador instruccional',
+        centro: 'Centro de Diseño y metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julieth Paola Vital López',
+        cargo: 'Revisora de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -273,35 +330,17 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: ['Daniel Ricardo Mutis Gómez', 'José Jaime Luis Tang Pinzón'],
+        cargo: 'Diseño web & producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        nombre: 'Ricardo Alfonso Gonzalez Vargas',
+        cargo: 'Desarrollo front-end, Validación de recursos.',
+        centro: 'Centro de comercio y servicios - Regional Tolima',
       },
     ],
   },
