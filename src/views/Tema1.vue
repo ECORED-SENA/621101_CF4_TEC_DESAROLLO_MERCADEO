@@ -894,9 +894,17 @@
 
                             .row.justify-content-center.mb-5
                                 .col-lg-8
-                                    figure.mb-5
-                                        .video
-                                            iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/bv8zTM9mZZ8', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+                                    .tarjeta.color-secundario.p-3.mb-5
+                                        .row.justify-content-around.align-items-center
+                                            .col
+                                                .row.justify-content-between.align-items-center
+                                                    .col.mb-3.mb-sm-0
+                                                        h3.mb-1 Tipos de materiales
+                                                        p.text-small En la siguiente presentación se describen los tipos de materiales, por ello, se invita que lo consulte. 
+                                                    .col-sm-auto
+                                                        a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Tipos de materiales_INFOGRAFIA.pdf')" target="_blank")
+                                                            span Descargar
+                                                            i.fas.fa-file-download
             Separador
             br
             br
