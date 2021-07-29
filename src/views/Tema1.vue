@@ -47,7 +47,7 @@
     br
     br
     #t_1_1.titulo-segundo
-      h2 1.1 Producto
+      h2 1.1. Producto
     .row.justify-content-center
       .col-lg-10
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5.bg-image-cover

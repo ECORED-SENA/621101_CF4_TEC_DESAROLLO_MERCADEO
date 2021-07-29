@@ -151,77 +151,77 @@ export default {
   ],
   glosario: [
     {
-      termino: 'ACTIVACIÓN DE MARCA',
+      termino: 'Activación de marca',
       significado:
         'Estrategia que busca captar la atención de los consumidores, acercar las marcas a ellos y sorprenderlos. Se basa en la persuasión para impactar al consumidor y lograr su compenetración con la marca.',
     },
     {
-      termino: 'ATRIBUTOS DEL PRODUCTO',
+      termino: 'Atributos del producto',
       significado:
         'Características que diferencian a un producto y contribuyen a formar una imagen definida del mismo en los consumidores y usuarios. Pueden ser intrínsecos y extrínsecos.',
     },
     {
-      termino: 'ATRIBUTOS EXTRÍNSECOS',
+      termino: 'Atributos extrínsecos',
       significado:
         'Son atributos del producto mismo de los que el consumidor suele extraer información acerca de la calidad, por ejemplo, el nombre de la marca, el país de origen y el precio.',
     },
     {
-      termino: 'ATRIBUTOS INTRÍNSECOS',
+      termino: 'Atributos intrínsecos',
       significado:
         'Atributos propios del producto que proporcionan una utilidad al consumidor. Por ejemplo, la potencia de un ordenador, la nitidez de la imagen de un televisor, la seguridad de un automóvil, etc.',
     },
     {
-      termino: 'CICLO DE VIDA DEL PRODUCTO',
+      termino: 'Ciclo de vida del producto',
       significado:
         'Son las etapas por la que atraviesa un producto desde su lanzamiento, crecimiento, madurez y decadencia. Para cada etapa existen diferentes estrategias de marketing.',
     },
     {
-      termino: 'EMBALAJE',
+      termino: 'Embalaje',
       significado:
         'Recipiente o envoltura que contiene productos de manera temporal principalmente para agrupar unidades de un producto pensando en su manipulación, transporte y almacenaje.',
     },
     {
-      termino: 'EMPAQUE',
+      termino: 'Empaque',
       significado:
         'Es una parte fundamental del producto, porque además de contener, proteger y/o preservar el producto permitiendo que este llegue en óptimas condiciones al consumidor final, es una poderosa herramienta de promoción y venta.',
     },
     {
-      termino: 'ENVASE',
+      termino: 'Envase',
       significado:
         'Es todo empaque que contiene y protege un producto, que nos ayuda a su manipulación, transporte e identificación del artículo.',
     },
     {
-      termino: 'IMAGEN DE MARCA',
+      termino: 'Imagen de marca',
       significado:
         'Representación mental de un conjunto de ideas, creencias e impresiones reales o psicológicas, que el consumidor o la consumidora considera que tiene una marca determinada para satisfacer sus deseos o necesidades.',
     },
     {
-      termino: 'MARKETING VERDE',
+      termino: 'Marketing verde',
       significado:
         'Es el marketing de productos que son mostrados como ambientales. De esta manera el marketing verde incorpora un gran rango de actividades, incluyendo modificación de productos, cambios a los procesos de producción empaques sustentables.',
     },
     {
-      termino: 'MEZCLA DE PRODUCTOS',
+      termino: 'Mezcla de productos',
       significado:
         'O variedad de productos, se refiere al número total de líneas de productos que una empresa ofrece a sus clientes. Por ejemplo, una empresa pequeña puede ofrecer varias líneas de productos. A veces, estas líneas de productos son muy similares, como los detergentes líquidos y los jabones en barra, ya que ambos sirven para limpiar y utilizan una tecnología similar. En otras ocasiones, las líneas de producto son muy diferentes, como los pañales y las hojas de afeitar. Las cuatro dimensiones de la mezcla de productos de una empresa incluyen: ancho, largo, profundidad y consistencia.',
     },
     {
-      termino: 'POSICIONAMIENTO',
+      termino: 'Posicionamiento',
       significado:
         'Es una estrategia comercial que pretende conseguir que un producto ocupe un lugar distintivo, relativo a la competencia, en la mente del consumidor. Se entiende el concepto de «producto» de forma amplia: puede tratarse de un elemento físico, intangible, empresa, lugar, partido político, creencia religiosa, persona, etc. De esta manera, lo que ocurre en el mercado en relación con el producto es consecuencia de lo que ocurre en la subjetividad de cada individuo en el proceso de conocimiento, consideración y uso de la oferta.',
     },
     {
-      termino: 'PRODUCTO',
+      termino: 'Producto',
       significado:
         'Es todo aquel bien material o inmaterial que puesto en el mercado viene a satisfacer la necesidad de un determinado cliente. Al bien material se le denomina producto y al inmaterial servicio, de ahí que la principal característica diferenciadora sea la tangibilidad del bien en cuestión.',
     },
     {
-      termino: 'SERVICIO',
+      termino: 'Servicio',
       significado:
         'Cualquier actividad, beneficio o satisfacción que se ofrece a la venta. Es esencialmente intangible y no puede resultar en propiedad de algo concreto. El servicio puede o no estar ligado a un producto físico o tangible.',
     },
     {
-      termino: 'STOCK',
+      termino: 'Stock',
       significado:
         'Es la cantidad de mercadería que posee la empresa dispuesta para vender o en el depósito. Mientras más rápido mueve el stock y mientras menos cantidad de stock necesita más rápido se mueve el capital y más rentable es el local.',
     },
